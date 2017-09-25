@@ -3,11 +3,17 @@ package douyu_2017_09_14;
 /**
  * 换钱的方法数
  * 
- * @author ZXQ20
+ * @author ZXQ
  *
  */
 public class Problem_01_CoinsWay {
-
+	/**
+	 * 方法1 从前往后推
+	 * 
+	 * @param arr
+	 * @param aim
+	 * @return
+	 */
 	public static int coins1(int[] arr, int aim) {
 		if (arr == null || arr.length == 0 || aim < 0) {
 			return 0;
@@ -20,7 +26,7 @@ public class Problem_01_CoinsWay {
 	 * @param arr
 	 *            面值组成的数值
 	 * @param index
-	 *            第几种钱
+	 *            考虑到第几种钱
 	 * @param aim
 	 *            总钱数
 	 * @return
@@ -38,4 +44,32 @@ public class Problem_01_CoinsWay {
 		}
 		return res;
 	}
+
+	/**
+	 * 方法2 从后往前推
+	 * 
+	 * @param arr
+	 * @param aim
+	 * @return
+	 */
+	public static int coinsOther(int[] arr, int aim) {
+
+		if(arr==null||arr.length==0||aim<0){
+			return 0;
+		}
+		return processOther(arr,arr.length-1,aim);
+	}
+	
+	public static int processOther(int[] arr,int index,int aim){
+		int res=0;
+		if(index==-1){
+			res=aim==0?1:0;
+		}else{
+			for(int i=0;arr[index]*i<=aim;i++){
+				res+=processOther(arr,index-1,aim-arr[index]*i);
+			}
+		}
+		return res;
+	}
+	
 }
