@@ -25,6 +25,34 @@ public class LCSubsequence {
 		return maxLen;
 	}
 	
+	public static int getdp2(int[] arr) {
+		int[] dp=new int[arr.length];
+		int[] ends=new int[arr.length];
+		ends[0]=arr[0];
+		dp[0]=1;
+		int right=0;
+		int l=0;
+		int r=0;
+		int m=0;
+		int maxLen=1;
+		for(int i=0;i<arr.length;i++) {
+			l=0;
+			r=right;
+			while(l<=r) {
+				m=(l+r)/2;
+				if(arr[i]>ends[m]) {
+					l=m+1;
+				}else {
+					r=m-1;
+				}
+			}
+			right=Math.max(right, l);
+			ends[l]=arr[i];
+			dp[i]=l+1;
+			maxLen=Math.max(maxLen, dp[i]);
+		}
+		return maxLen;
+	}
 	
 //	public static int[] generateLIS(int[] arr,int[] dp) {
 //		int len=0;
@@ -65,6 +93,6 @@ public class LCSubsequence {
 		}
 //		for(int i=0;i<lis1(arr).length;i++)
 //		System.out.print(lis1(arr)[i]+" ");
-		System.out.println(getdp1(arr));
+		System.out.println(getdp2(arr));
 	}
 }
