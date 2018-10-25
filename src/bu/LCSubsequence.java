@@ -85,14 +85,22 @@ public class LCSubsequence {
 	
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		int[] arr;
-		int size=sc.nextInt();
-		arr=new int[size];
-		for(int i=0;i<size;i++) {
-			arr[i]=sc.nextInt();
+		
+		int k=sc.nextInt();
+		
+		while(k>0) {
+			int size=sc.nextInt();
+			
+			int[] arr=new int[size];
+			for(int i=0;i<size;i++) {
+				arr[i]=sc.nextInt();	
+			}
+			System.out.print(getdp2(arr));
+			k--;
 		}
+		
 //		for(int i=0;i<lis1(arr).length;i++)
 //		System.out.print(lis1(arr)[i]+" ");
-		System.out.println(getdp2(arr));
+		
 	}
 }
