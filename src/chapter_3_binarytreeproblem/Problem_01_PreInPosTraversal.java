@@ -58,7 +58,7 @@ public class Problem_01_PreInPosTraversal {
 		}
 		posOrderRecur(head.left);
 		posOrderRecur(head.right);
-		System.out.print(head.value);
+		System.out.print(head.value+" ");
 	}
 	
 	/**
