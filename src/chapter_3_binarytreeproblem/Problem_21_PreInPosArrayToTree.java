@@ -147,6 +147,5 @@ public class Problem_21_PreInPosArrayToTree {
 			printTree(preInToTree(pre, in));
 			printTree(inPosToTree(in, pos));
 			printTree(prePosToTree(pre, pos));
-
 		}
 }
