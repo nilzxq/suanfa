@@ -73,13 +73,120 @@ public class Problem_01_FibonacciProblem {
 		int[][] res=matrixPower(base, n-2);
 		return res[0][0]+res[1][0];
 	}
+	
+	/**
+	 * 给定整数N，代表台阶数，一次可以跨2个或者1个台阶，返回有多少种走法。
+	 * @param n
+	 * @return
+	 */
+	public static int s1(int n) {
+		if(n<1) {
+			return 0;
+		}
+		if(n==1||n==2) {
+			return n;
+		}
+		return s1(n-1)+s1(n-2);
+	}
+	
+	public static int s2(int n) {
+		if(n<1) {
+			return 0;
+		}
+		if(n==1||n==2) {
+			return n;
+		}
+		int res=2;
+		int pre=1;
+		int tmp=0;
+		for(int i=3;i<=n;i++) {
+			tmp=res;
+			res=res+pre;
+			pre=tmp;
+		}
+		return res;
+	}
+	
+	public static int s3(int n) {
+		if(n<1) {
+			return 0;
+		}
+		if(n==1||n==2) {
+			return n;
+		}
+		int[][] base= {{1,1},{1,0}};
+		int[][] res=matrixPower(base, n-2);
+		return 2*res[0][0]+res[1][0];
+	}
+	
+	/**
+	 * 假设农场中成熟的母牛每年只会生1头小母牛，并且永远不会死。第一年农场有1只
+	 * 成熟的母牛，从第二年开始，母牛开始生小母牛。每只小母牛3年之后成熟又可以生
+	 * 小母牛。
+	 * @param n
+	 * @return
+	 */
+	public static int c1(int n) {
+		if(n<1) {
+			return 0;
+		}
+		if(n==1||n==2||n==3) {
+			return n;
+		}
+		return c1(n-1)+c1(n-3);
+	}
+	
+	public static int c2(int n) {
+		if(n<1) {
+			return 0;
+		}
+		if(n==1||n==2||n==3) {
+			return n;
+		}
+		int res=3;
+		int pre=2;
+		int prepre=1;
+		int tmp1=0;
+		int tmp2=0;
+		for(int i=4;i<=n;i++) {
+			tmp1=res;
+			tmp2=pre;
+			res=res+prepre;
+			pre=tmp1;
+			prepre=tmp2;
+		}
+		return res;
+	}
+
+	public static int c3(int n) {
+		if(n<1) {
+			return 0;
+		}
+		if(n==1||n==2||n==3) {
+			return n;
+		}
+		int[][] base= {{1,1,0},{0,0,1},{1,0,0}};
+		int[][] res=matrixPower(base, n-3);
+		return 3*res[0][0]+2*res[1][0]+res[2][0];
+	}
+
 	public static void main(String[] args) {
 		int n = 20;
 		System.out.println(f1(n));
 		System.out.println(f2(n));
 		System.out.println(f3(n));
+		System.out.println("===");
 
+		System.out.println(s1(n));
+		System.out.println(s2(n));
+		System.out.println(s3(n));
+		System.out.println("===");
+
+		System.out.println(c1(n));
+		System.out.println(c2(n));
+		System.out.println(c3(n));
+		System.out.println("===");
+		
 	}
-
 	
 }
