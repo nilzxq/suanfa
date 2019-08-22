@@ -1,4 +1,4 @@
-package chapter_8_arrayandmatrix;
+package chapter_7_bitoperation;
 /** 
 * @author nilzxq
 * @version 2019年8月21日 下午7:11:29 
