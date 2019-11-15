@@ -1,7 +1,5 @@
 package leetcode;
 
-import leetcode.Problem_20_List_DeleteNode.ListNode;
-
 /** 
 * @author nilzxq
 * @version 2019年11月15日 下午5:20:40 
