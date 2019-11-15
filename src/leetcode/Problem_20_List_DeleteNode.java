@@ -1,7 +1,5 @@
 package leetcode;
 
-import chapter_2_listproblem.Problem_16_ListSelectionSort.Node;
-
 /** 
 * @author nilzxq
 * @version 2019年11月14日 下午8:12:55 
