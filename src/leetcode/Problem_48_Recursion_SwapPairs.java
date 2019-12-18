@@ -1,6 +1,5 @@
 package leetcode;
 
-import leetcode.Problem_20_List_DeleteNode.ListNode;
 
 /** 
 * @author nilzxq
