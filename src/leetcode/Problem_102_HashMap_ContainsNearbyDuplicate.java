@@ -14,12 +14,12 @@ public class Problem_102_HashMap_ContainsNearbyDuplicate {
 		for(int i=0;i<nums.length;i++) {
 			if(map.containsKey(nums[i])) {
 				int sub=i-map.get(nums[i]);
-				if(sub>k) return false;
+				if(sub<=k) return true;
 				else map.put(nums[i],i);
 			}
 			map.put(nums[i], i);
 		}
-		return true;
+		return false;
 	}
 	
 	public static void main(String[] args) {
