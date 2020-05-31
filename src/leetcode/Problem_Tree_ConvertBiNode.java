@@ -31,6 +31,31 @@ public class Problem_Tree_ConvertBiNode {
         xh(r.right);
     }
 
+    public TreeNode covertBiNode1(TreeNode root) {
+        if (root == null)
+            return null;
+        // 中序遍历
+        TreeNode sub = covertBiNode1(root.left);
+        // 若为空则说明遍历完了，就直接将sub指向root
+        if (sub == null)
+            sub = root;
+        else {
+            // 记录头节点
+            TreeNode temp = sub;
+            // 找到链表队尾
+            while (sub.right != null)
+                sub = sub.right;
+            // 将当前节点放入队尾
+            sub.right = root;
+            sub = temp;
+        }
+        // 所有的左子树均置空
+        root.left = null;
+        root.right = covertBiNode1(root.right);
+        return sub;
+    }
+
+
     // for test -- print tree
     public static void printTree(TreeNode head) {
         System.out.println("Binary Tree:");
@@ -69,8 +94,12 @@ public class Problem_Tree_ConvertBiNode {
         root.left.right=new TreeNode(3);
         root.right.right=new TreeNode(6);
         root.left.left.left=new TreeNode(0);
-        TreeNode tn=cb.covertBiNode(root);
-        printTree(tn);
+        //TreeNode tn=cb.covertBiNode(root);
+        TreeNode tn1=cb.covertBiNode1(root);
+        //printTree(tn);
+        printTree(tn1);
     }
+
+
 
 }
