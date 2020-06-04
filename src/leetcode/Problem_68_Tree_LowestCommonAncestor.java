@@ -1,5 +1,7 @@
 package leetcode;
 
+import sun.reflect.generics.tree.Tree;
+
 public class Problem_68_Tree_LowestCommonAncestor {
 
     public TreeNode lowestCommonAncestor(TreeNode root,TreeNode p,TreeNode q){
@@ -24,6 +26,7 @@ public class Problem_68_Tree_LowestCommonAncestor {
         node.right.left=new TreeNode(5);
         node.right.right=new TreeNode(7);
         node.right.right.right=new TreeNode(8);
-        System.out.println(lca.lowestCommonAncestor(node,node.left.right.right,node.left));
+        TreeNode res=lca.lowestCommonAncestor(node,node.left.right.right,node.left);
+        System.out.println(res.val);
     }
 }
