@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update IDEA">
-      <change beforePath="$PROJECT_DIR$/hs_err_pid30852.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sh.exe.stackdump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +31,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\左神\suanfa\out\production\suanfa\problems_2017_07_26" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Problem_32_Tree_LevelOrder3">
+  <component name="RunManager" selected="Application.Problem_68_Tree_LowestCommonAncestor">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -103,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem_Tree_BalanceBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Problem_Tree_BalanceBST" />
+    <configuration name="Problem_68_Tree_LowestCommonAncestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Problem_68_Tree_LowestCommonAncestor" />
       <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -150,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem_68_Tree_LowestCommonAncestor" />
         <item itemvalue="Application.Problem_32_Tree_LevelOrder3" />
         <item itemvalue="Application.Problem_32_Tree_LevelOrder" />
         <item itemvalue="Application.Problem_32_Tree_LevelOrder_1" />
         <item itemvalue="Application.Problem_1038_Tree_BstToGst" />
-        <item itemvalue="Application.Problem_Tree_BalanceBST" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +176,9 @@
       <workItem from="1591138831607" duration="1678000" />
       <workItem from="1591188250642" duration="1139000" />
       <workItem from="1591191689735" duration="484000" />
-      <workItem from="1591192246481" duration="827000" />
+      <workItem from="1591192246481" duration="1342000" />
+      <workItem from="1591195465721" duration="333000" />
+      <workItem from="1591282074267" duration="1472000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
@@ -225,14 +226,14 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="314" y="115" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1463.914@0.0.1463.914" timestamp="1590837068987" />
-    <state x="383" y="55" key="CommitChangelistDialog2" timestamp="1590842231734">
+    <state x="383" y="55" key="CommitChangelistDialog2" timestamp="1591283628772">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
-    <state x="383" y="55" key="CommitChangelistDialog2/0.0.1463.914@0.0.1463.914" timestamp="1590842231734" />
-    <state x="694" y="258" key="FileChooserDialogImpl" timestamp="1591137663905">
+    <state x="383" y="55" key="CommitChangelistDialog2/0.0.1463.914@0.0.1463.914" timestamp="1591283628772" />
+    <state x="694" y="258" key="FileChooserDialogImpl" timestamp="1591282523038">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
-    <state x="694" y="258" key="FileChooserDialogImpl/0.0.1463.914@0.0.1463.914" timestamp="1591137663905" />
+    <state x="694" y="258" key="FileChooserDialogImpl/0.0.1463.914@0.0.1463.914" timestamp="1591282523038" />
     <state width="1420" height="238" key="GridCell.Tab.0.bottom" timestamp="1591193079404">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
@@ -265,14 +266,14 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state width="1420" height="369" key="GridCell.Tab.1.right/0.0.1463.914@0.0.1463.914" timestamp="1591111657526" />
-    <state x="417" y="145" key="SettingsEditor" timestamp="1590837110822">
+    <state x="417" y="145" key="SettingsEditor" timestamp="1591282536045">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
-    <state x="417" y="145" key="SettingsEditor/0.0.1463.914@0.0.1463.914" timestamp="1590837110822" />
-    <state x="426" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1591191709786">
+    <state x="417" y="145" key="SettingsEditor/0.0.1463.914@0.0.1463.914" timestamp="1591282536045" />
+    <state x="426" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1591282083199">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
-    <state x="426" y="285" key="com.intellij.ide.util.TipDialog/0.0.1463.914@0.0.1463.914" timestamp="1591191709786" />
+    <state x="426" y="285" key="com.intellij.ide.util.TipDialog/0.0.1463.914@0.0.1463.914" timestamp="1591282083199" />
     <state x="135" y="56" key="new project wizard" timestamp="1591141311470">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
