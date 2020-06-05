@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Problem_68_Tree_LowestCommonAncestor2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,7 +177,7 @@
       <workItem from="1591192246481" duration="1342000" />
       <workItem from="1591195465721" duration="333000" />
       <workItem from="1591282074267" duration="4425000" />
-      <workItem from="1591365972943" duration="529000" />
+      <workItem from="1591365972943" duration="781000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
@@ -196,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590842236512</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update Problem_68_Tree_LowestCommonAncestor2">
+      <created>1591366613765</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591366613765</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +210,8 @@
     <MESSAGE value="nowcoder" />
     <MESSAGE value="update IDEA" />
     <MESSAGE value="update Problem_68_Tree_LowestCommonAncestor" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Problem_68_Tree_LowestCommonAncestor" />
+    <MESSAGE value="update Problem_68_Tree_LowestCommonAncestor2" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Problem_68_Tree_LowestCommonAncestor2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="187" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591191903363">
