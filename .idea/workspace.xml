@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Problem_68_Tree_LowestCommonAncestor2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +31,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pig" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -38,27 +39,13 @@
       <recent name="H:\左神\suanfa\out\production\suanfa\problems_2017_07_26" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Problem_68_Tree_LowestCommonAncestor">
+  <component name="RunManager" selected="Application.Problem_68_Tree_LowestCommonAncestor2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="Problem_1038_Tree_BstToGst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Problem_1038_Tree_BstToGst" />
-      <module name="suanfa" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Problem_32_Tree_LevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.Problem_32_Tree_LevelOrder" />
@@ -116,6 +103,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem_68_Tree_LowestCommonAncestor2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Problem_68_Tree_LowestCommonAncestor2" />
+      <module name="suanfa" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem_68_Tree_LowestCommonAncestor2" />
         <item itemvalue="Application.Problem_68_Tree_LowestCommonAncestor" />
         <item itemvalue="Application.Problem_32_Tree_LevelOrder3" />
         <item itemvalue="Application.Problem_32_Tree_LevelOrder" />
         <item itemvalue="Application.Problem_32_Tree_LevelOrder_1" />
-        <item itemvalue="Application.Problem_1038_Tree_BstToGst" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +179,8 @@
       <workItem from="1591191689735" duration="484000" />
       <workItem from="1591192246481" duration="1342000" />
       <workItem from="1591195465721" duration="333000" />
-      <workItem from="1591282074267" duration="2259000" />
+      <workItem from="1591282074267" duration="4425000" />
+      <workItem from="1591365972943" duration="529000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
@@ -231,26 +233,26 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="383" y="55" key="CommitChangelistDialog2/0.0.1463.914@0.0.1463.914" timestamp="1591283628772" />
-    <state x="694" y="258" key="FileChooserDialogImpl" timestamp="1591282523038">
+    <state x="747" y="391" key="FileChooserDialogImpl" timestamp="1591313636632">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
-    <state x="694" y="258" key="FileChooserDialogImpl/0.0.1463.914@0.0.1463.914" timestamp="1591282523038" />
-    <state width="1420" height="240" key="GridCell.Tab.0.bottom" timestamp="1591312095653">
+    <state x="747" y="391" key="FileChooserDialogImpl/0.0.1463.914@0.0.1463.914" timestamp="1591313636632" />
+    <state width="1342" height="240" key="GridCell.Tab.0.bottom" timestamp="1591317776495">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
-    <state width="1420" height="240" key="GridCell.Tab.0.bottom/0.0.1463.914@0.0.1463.914" timestamp="1591312095653" />
-    <state width="1420" height="240" key="GridCell.Tab.0.center" timestamp="1591312095653">
+    <state width="1342" height="240" key="GridCell.Tab.0.bottom/0.0.1463.914@0.0.1463.914" timestamp="1591317776495" />
+    <state width="1342" height="240" key="GridCell.Tab.0.center" timestamp="1591317776495">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
-    <state width="1420" height="240" key="GridCell.Tab.0.center/0.0.1463.914@0.0.1463.914" timestamp="1591312095653" />
-    <state width="1420" height="240" key="GridCell.Tab.0.left" timestamp="1591312095652">
+    <state width="1342" height="240" key="GridCell.Tab.0.center/0.0.1463.914@0.0.1463.914" timestamp="1591317776495" />
+    <state width="1342" height="240" key="GridCell.Tab.0.left" timestamp="1591317776495">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
-    <state width="1420" height="240" key="GridCell.Tab.0.left/0.0.1463.914@0.0.1463.914" timestamp="1591312095652" />
-    <state width="1420" height="240" key="GridCell.Tab.0.right" timestamp="1591312095653">
+    <state width="1342" height="240" key="GridCell.Tab.0.left/0.0.1463.914@0.0.1463.914" timestamp="1591317776495" />
+    <state width="1342" height="240" key="GridCell.Tab.0.right" timestamp="1591317776495">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
-    <state width="1420" height="240" key="GridCell.Tab.0.right/0.0.1463.914@0.0.1463.914" timestamp="1591312095653" />
+    <state width="1342" height="240" key="GridCell.Tab.0.right/0.0.1463.914@0.0.1463.914" timestamp="1591317776495" />
     <state width="1420" height="369" key="GridCell.Tab.1.bottom" timestamp="1591111657526">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
@@ -267,14 +269,14 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state width="1420" height="369" key="GridCell.Tab.1.right/0.0.1463.914@0.0.1463.914" timestamp="1591111657526" />
-    <state x="417" y="145" key="SettingsEditor" timestamp="1591282536045">
+    <state x="269" y="119" key="SettingsEditor" timestamp="1591312431157">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
-    <state x="417" y="145" key="SettingsEditor/0.0.1463.914@0.0.1463.914" timestamp="1591282536045" />
-    <state x="426" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1591282083199">
+    <state x="269" y="119" key="SettingsEditor/0.0.1463.914@0.0.1463.914" timestamp="1591312431157" />
+    <state x="426" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1591365974005">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
-    <state x="426" y="285" key="com.intellij.ide.util.TipDialog/0.0.1463.914@0.0.1463.914" timestamp="1591282083199" />
+    <state x="426" y="285" key="com.intellij.ide.util.TipDialog/0.0.1463.914@0.0.1463.914" timestamp="1591365974005" />
     <state x="135" y="56" key="new project wizard" timestamp="1591141311470">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
