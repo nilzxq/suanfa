@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Problem_671_Tree_FindSecondMinimumValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Problem_54_Tree_KthLargest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +39,7 @@
       <recent name="H:\左神\suanfa\out\production\suanfa\problems_2017_07_26" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Problem_671_Tree_FindSecondMinimumValue">
+  <component name="RunManager" selected="Application.Problem_54_Tree_KthLargest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -61,8 +61,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem_32_Tree_LevelOrder3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Problem_32_Tree_LevelOrder3" />
+    <configuration name="Problem_54_Tree_KthLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Problem_54_Tree_KthLargest" />
       <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem_54_Tree_KthLargest" />
         <item itemvalue="Application.Problem_671_Tree_FindSecondMinimumValue" />
         <item itemvalue="Application.Problem_230_Tree_KthSmallest" />
         <item itemvalue="Application.Problem_68_Tree_LowestCommonAncestor2" />
         <item itemvalue="Application.Problem_68_Tree_LowestCommonAncestor" />
-        <item itemvalue="Application.Problem_32_Tree_LevelOrder3" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +182,8 @@
       <workItem from="1591282074267" duration="4425000" />
       <workItem from="1591365972943" duration="1806000" />
       <workItem from="1591452667069" duration="3128000" />
-      <workItem from="1591540241602" duration="734000" />
+      <workItem from="1591540241602" duration="1281000" />
+      <workItem from="1591625809754" duration="1193000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
@@ -247,26 +248,26 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="747" y="391" key="FileChooserDialogImpl/0.0.1463.914@0.0.1463.914" timestamp="1591313636632" />
-    <state width="1662" height="309" key="GridCell.Tab.0.bottom" timestamp="1591455799672">
+    <state width="1662" height="309" key="GridCell.Tab.0.bottom" timestamp="1591626542795">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.bottom/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1662" height="309" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1591455799672" />
-    <state width="1662" height="309" key="GridCell.Tab.0.center" timestamp="1591455799672">
+    <state width="1662" height="309" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1591626542795" />
+    <state width="1662" height="309" key="GridCell.Tab.0.center" timestamp="1591626542794">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.center/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1662" height="309" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1591455799672" />
-    <state width="1662" height="309" key="GridCell.Tab.0.left" timestamp="1591455799672">
+    <state width="1662" height="309" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1591626542794" />
+    <state width="1662" height="309" key="GridCell.Tab.0.left" timestamp="1591626542793">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.left/0.0.1463.914@0.0.1463.914" timestamp="1591366618524" />
-    <state width="1662" height="309" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1591455799672" />
-    <state width="1662" height="309" key="GridCell.Tab.0.right" timestamp="1591455799672">
+    <state width="1662" height="309" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1591626542793" />
+    <state width="1662" height="309" key="GridCell.Tab.0.right" timestamp="1591626542795">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.right/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1662" height="309" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1591455799672" />
+    <state width="1662" height="309" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1591626542795" />
     <state width="1420" height="369" key="GridCell.Tab.1.bottom" timestamp="1591111657526">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
