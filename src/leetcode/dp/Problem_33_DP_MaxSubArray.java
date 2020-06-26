@@ -1,8 +1,8 @@
-package leetcode;
-/** 
+package leetcode.dp;
+/**
 * @author nilzxq
-* @version 2019年12月3日 下午8:58:58 
-*类说明 
+* @version 2019年12月3日 下午8:58:58
+*类说明
 */
 public class Problem_33_DP_MaxSubArray {
 
@@ -19,7 +19,7 @@ public class Problem_33_DP_MaxSubArray {
 		}
 		return max;
 	}
-	
+
 	public static void main(String[] args) {
 		int[] nums= {-2,1,-3,4,-1,2,1,-5,4};
 		System.out.println(maxSubArray(nums));

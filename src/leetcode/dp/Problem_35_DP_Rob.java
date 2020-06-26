@@ -1,8 +1,8 @@
-package leetcode;
-/** 
+package leetcode.dp;
+/**
 * @author nilzxq
-* @version 2019年12月4日 下午7:36:21 
-*类说明 
+* @version 2019年12月4日 下午7:36:21
+*类说明
 */
 public class Problem_35_DP_Rob {
 
@@ -35,7 +35,7 @@ public class Problem_35_DP_Rob {
 		}
 		return res[len];
 	}
-	
+
 	public static void main(String[] args) {
 		int[] nums= {2,7,9,3,1};
 		System.out.println(rob(nums));
