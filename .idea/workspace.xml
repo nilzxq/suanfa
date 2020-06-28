@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/MaxValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/MaxProfit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Problem_32_DP_ClimbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_32_DP_ClimbStairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Problem_33_DP_MaxProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_33_DP_MaxProfit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Problem_33_DP_MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_33_DP_MaxSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Problem_35_DP_Rob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_35_DP_Rob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Problem_63_DP_UniquePathsWithObstacles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_63_DP_UniquePathsWithObstacles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Problem_DP_MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_DP_MaxSubArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +53,7 @@
       <recent name="H:\左神\suanfa\out\production\suanfa\problems_2017_07_26" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxValue">
+  <component name="RunManager" selected="Application.MaxProfit">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -81,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.dp.MaxValue" />
+    <configuration name="MaxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.dp.MaxProfit" />
       <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -95,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem_63_DP_UniquePathsWithObstacles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.dp.Problem_63_DP_UniquePathsWithObstacles" />
+    <configuration name="MaxValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.dp.MaxValue" />
       <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -170,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxProfit" />
         <item itemvalue="Application.MaxValue" />
         <item itemvalue="Application.CuttingRope" />
         <item itemvalue="Application.Problem_DP_MaxSubArray" />
         <item itemvalue="Application.Problme_DP_CuttingRope" />
-        <item itemvalue="Application.Problem_63_DP_UniquePathsWithObstacles" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +215,9 @@
       <workItem from="1592754130192" duration="836000" />
       <workItem from="1592924252408" duration="888000" />
       <workItem from="1593180279753" duration="662000" />
-      <workItem from="1593180965068" duration="1429000" />
+      <workItem from="1593180965068" duration="1592000" />
+      <workItem from="1593246376128" duration="973000" />
+      <workItem from="1593353662577" duration="1486000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
@@ -286,26 +282,26 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="747" y="391" key="FileChooserDialogImpl/0.0.1463.914@0.0.1463.914" timestamp="1591313636632" />
-    <state width="1662" height="228" key="GridCell.Tab.0.bottom" timestamp="1593182294786">
+    <state width="1662" height="228" key="GridCell.Tab.0.bottom" timestamp="1593182558706">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.bottom/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1662" height="228" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1593182294786" />
-    <state width="1662" height="228" key="GridCell.Tab.0.center" timestamp="1593182294786">
+    <state width="1662" height="228" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1593182558706" />
+    <state width="1662" height="228" key="GridCell.Tab.0.center" timestamp="1593182558706">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.center/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1662" height="228" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1593182294786" />
-    <state width="1662" height="228" key="GridCell.Tab.0.left" timestamp="1593182294786">
+    <state width="1662" height="228" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1593182558706" />
+    <state width="1662" height="228" key="GridCell.Tab.0.left" timestamp="1593182558706">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.left/0.0.1463.914@0.0.1463.914" timestamp="1591366618524" />
-    <state width="1662" height="228" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1593182294786" />
-    <state width="1662" height="228" key="GridCell.Tab.0.right" timestamp="1593182294786">
+    <state width="1662" height="228" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1593182558706" />
+    <state width="1662" height="228" key="GridCell.Tab.0.right" timestamp="1593182558706">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.right/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1662" height="228" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1593182294786" />
+    <state width="1662" height="228" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1593182558706" />
     <state width="1662" height="358" key="GridCell.Tab.1.bottom" timestamp="1592615960310">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
@@ -331,11 +327,11 @@
     </state>
     <state x="269" y="119" key="SettingsEditor/0.0.1463.914@0.0.1463.914" timestamp="1591312431157" />
     <state x="652" y="327" width="996" height="707" key="SettingsEditor/0.0.1707.1067@0.0.1707.1067" timestamp="1591455275921" />
-    <state x="497" y="333" key="com.intellij.ide.util.TipDialog" timestamp="1593180965482">
+    <state x="497" y="333" key="com.intellij.ide.util.TipDialog" timestamp="1593353667545">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="426" y="285" key="com.intellij.ide.util.TipDialog/0.0.1463.914@0.0.1463.914" timestamp="1591365974005" />
-    <state x="497" y="333" key="com.intellij.ide.util.TipDialog/0.0.1707.1067@0.0.1707.1067" timestamp="1593180965482" />
+    <state x="497" y="333" key="com.intellij.ide.util.TipDialog/0.0.1707.1067@0.0.1707.1067" timestamp="1593353667545" />
     <state x="483" y="78" width="1224" height="563" key="new project wizard" timestamp="1592266532129">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
