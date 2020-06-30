@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/stack/ArrayStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suanfa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/suanfa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/stack/CQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/stack/CQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
       <recent name="H:\左神\suanfa\out\production\suanfa\problems_2017_07_26" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayStack">
+  <component name="RunManager" selected="Application.CQueue">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -94,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.stack.ReverseApp" />
+    <configuration name="CQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.stack.CQueue" />
       <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -174,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CQueue" />
         <item itemvalue="Application.ArrayStack" />
         <item itemvalue="JUnit.ArrayStack" />
         <item itemvalue="JUnit.ArrayStack.testArrayStack" />
         <item itemvalue="Application.BracketsApp" />
-        <item itemvalue="Application.ReverseApp" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +227,7 @@
       <workItem from="1593180965068" duration="1592000" />
       <workItem from="1593246376128" duration="973000" />
       <workItem from="1593353662577" duration="1751000" />
-      <workItem from="1593475699689" duration="6843000" />
+      <workItem from="1593475699689" duration="8952000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
@@ -293,26 +292,26 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="747" y="391" key="FileChooserDialogImpl/0.0.1463.914@0.0.1463.914" timestamp="1591313636632" />
-    <state width="1662" height="256" key="GridCell.Tab.0.bottom" timestamp="1593485601464">
+    <state width="1662" height="256" key="GridCell.Tab.0.bottom" timestamp="1593489154090">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.bottom/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1662" height="256" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1593485601464" />
-    <state width="1662" height="256" key="GridCell.Tab.0.center" timestamp="1593485601464">
+    <state width="1662" height="256" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1593489154090" />
+    <state width="1662" height="256" key="GridCell.Tab.0.center" timestamp="1593489154090">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.center/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1662" height="256" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1593485601464" />
-    <state width="1662" height="256" key="GridCell.Tab.0.left" timestamp="1593485601464">
+    <state width="1662" height="256" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1593489154090" />
+    <state width="1662" height="256" key="GridCell.Tab.0.left" timestamp="1593489154089">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.left/0.0.1463.914@0.0.1463.914" timestamp="1591366618524" />
-    <state width="1662" height="256" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1593485601464" />
-    <state width="1662" height="256" key="GridCell.Tab.0.right" timestamp="1593485601464">
+    <state width="1662" height="256" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1593489154089" />
+    <state width="1662" height="256" key="GridCell.Tab.0.right" timestamp="1593489154090">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.right/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1662" height="256" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1593485601464" />
+    <state width="1662" height="256" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1593489154090" />
     <state width="1662" height="358" key="GridCell.Tab.1.bottom" timestamp="1592615960310">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
