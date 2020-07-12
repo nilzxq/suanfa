@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/string/StrToInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/string/MissingNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +61,7 @@
       <recent name="H:\左神\suanfa\out\production\suanfa\problems_2017_07_26" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StrToInt">
+  <component name="RunManager" selected="Application.MissingNumber">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -111,13 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.set.HashSetTest" />
+    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.string.MissingNumber" />
       <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.set.*" />
+          <option name="PATTERN" value="leetcode.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MissingNumber" />
         <item itemvalue="Application.StrToInt" />
         <item itemvalue="Application.Exist" />
         <item itemvalue="Application.ClassloaderAndForNameTest" />
         <item itemvalue="Application.ClassDemo1" />
-        <item itemvalue="Application.HashSetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +232,12 @@
       <workItem from="1593787924545" duration="1586000" />
       <workItem from="1594049214334" duration="349000" />
       <workItem from="1594106155182" duration="22000" />
-      <workItem from="1594218405878" duration="3378000" />
+      <workItem from="1594218405878" duration="4032000" />
+      <workItem from="1594280824347" duration="26000" />
+      <workItem from="1594309163218" duration="55000" />
+      <workItem from="1594385414886" duration="14000" />
+      <workItem from="1594565147096" duration="1092000" />
+      <workItem from="1594593289384" duration="1775000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
@@ -294,31 +299,31 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="383" y="55" key="CommitChangelistDialog2/0.0.1463.914@0.0.1463.914" timestamp="1591366612618" />
-    <state x="872" y="456" key="FileChooserDialogImpl" timestamp="1594106174392">
+    <state x="872" y="456" key="FileChooserDialogImpl" timestamp="1594385426721">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="747" y="391" key="FileChooserDialogImpl/0.0.1463.914@0.0.1463.914" timestamp="1591313636632" />
-    <state x="872" y="456" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1594106174392" />
-    <state width="1662" height="256" key="GridCell.Tab.0.bottom" timestamp="1594222190721">
+    <state x="872" y="456" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1594385426721" />
+    <state width="1506" height="246" key="GridCell.Tab.0.bottom" timestamp="1594594241396">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.bottom/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1662" height="256" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1594222190721" />
-    <state width="1662" height="256" key="GridCell.Tab.0.center" timestamp="1594222190721">
+    <state width="1506" height="246" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1594594241396" />
+    <state width="1506" height="246" key="GridCell.Tab.0.center" timestamp="1594594241396">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.center/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1662" height="256" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1594222190721" />
-    <state width="1662" height="256" key="GridCell.Tab.0.left" timestamp="1594222190721">
+    <state width="1506" height="246" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1594594241396" />
+    <state width="1506" height="246" key="GridCell.Tab.0.left" timestamp="1594594241396">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.left/0.0.1463.914@0.0.1463.914" timestamp="1591366618524" />
-    <state width="1662" height="256" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1594222190721" />
-    <state width="1662" height="256" key="GridCell.Tab.0.right" timestamp="1594222190721">
+    <state width="1506" height="246" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1594594241396" />
+    <state width="1506" height="246" key="GridCell.Tab.0.right" timestamp="1594594241396">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.right/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1662" height="256" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1594222190721" />
+    <state width="1506" height="246" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1594594241396" />
     <state width="1662" height="358" key="GridCell.Tab.1.bottom" timestamp="1592615960310">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
@@ -344,11 +349,11 @@
     </state>
     <state x="269" y="119" key="SettingsEditor/0.0.1463.914@0.0.1463.914" timestamp="1591312431157" />
     <state x="652" y="327" width="996" height="707" key="SettingsEditor/0.0.1707.1067@0.0.1707.1067" timestamp="1591455275921" />
-    <state x="497" y="333" key="com.intellij.ide.util.TipDialog" timestamp="1594106155171">
+    <state x="497" y="333" key="com.intellij.ide.util.TipDialog" timestamp="1594385415349">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="426" y="285" key="com.intellij.ide.util.TipDialog/0.0.1463.914@0.0.1463.914" timestamp="1591365974005" />
-    <state x="497" y="333" key="com.intellij.ide.util.TipDialog/0.0.1707.1067@0.0.1707.1067" timestamp="1594106155171" />
+    <state x="497" y="333" key="com.intellij.ide.util.TipDialog/0.0.1707.1067@0.0.1707.1067" timestamp="1594385415349" />
     <state x="502" y="369" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1593485244114">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
@@ -485,6 +490,26 @@
           <url>file://$PROJECT_DIR$/src/leetcode/dp/Problme_DP_CuttingRope.java</url>
           <line>29</line>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/string/MissingNumber.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/string/MissingNumber.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/string/MissingNumber.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/string/MissingNumber.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
