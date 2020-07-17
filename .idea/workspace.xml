@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/string/MissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/array/MaxSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/string/Problem_58_String_ReverseWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/BFS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/string/MissingNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/string/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/binarySearch/MissingNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +65,7 @@
       <recent name="H:\左神\suanfa\out\production\suanfa\problems_2017_07_26" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MissingNumber">
+  <component name="RunManager" selected="Application.MaxSubArray">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -69,13 +73,13 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="ClassDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_learning.ClassDemo1" />
+    <configuration name="BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.tree.BFS" />
       <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_learning.*" />
+          <option name="PATTERN" value="leetcode.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,27 +87,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassloaderAndForNameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_learning.Reflect.ClassloaderAndForNameTest" />
+    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.array.MaxSubArray" />
       <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_learning.Reflect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.string.Exist" />
-      <module name="suanfa" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.string.*" />
+          <option name="PATTERN" value="leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,7 +102,21 @@
       </method>
     </configuration>
     <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.string.MissingNumber" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.binarySearch.MissingNumber" />
+      <module name="suanfa" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.binarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem_58_String_ReverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.string.Problem_58_String_ReverseWords" />
       <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -131,7 +135,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.string.*" />
+          <option name="PATTERN" value="leetcode.binarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSubArray" />
+        <item itemvalue="Application.BFS" />
+        <item itemvalue="Application.Problem_58_String_ReverseWords" />
         <item itemvalue="Application.MissingNumber" />
         <item itemvalue="Application.StrToInt" />
-        <item itemvalue="Application.Exist" />
-        <item itemvalue="Application.ClassloaderAndForNameTest" />
-        <item itemvalue="Application.ClassDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +241,10 @@
       <workItem from="1594309163218" duration="55000" />
       <workItem from="1594385414886" duration="14000" />
       <workItem from="1594565147096" duration="1092000" />
-      <workItem from="1594593289384" duration="1775000" />
+      <workItem from="1594593289384" duration="4663000" />
+      <workItem from="1594646194407" duration="679000" />
+      <workItem from="1594905054278" duration="3262000" />
+      <workItem from="1594992572704" duration="2519000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
@@ -299,31 +306,31 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="383" y="55" key="CommitChangelistDialog2/0.0.1463.914@0.0.1463.914" timestamp="1591366612618" />
-    <state x="872" y="456" key="FileChooserDialogImpl" timestamp="1594385426721">
+    <state x="497" y="168" key="FileChooserDialogImpl" timestamp="1594657617707">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="747" y="391" key="FileChooserDialogImpl/0.0.1463.914@0.0.1463.914" timestamp="1591313636632" />
-    <state x="872" y="456" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1594385426721" />
-    <state width="1506" height="246" key="GridCell.Tab.0.bottom" timestamp="1594594241396">
+    <state x="497" y="168" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1594657617707" />
+    <state width="1662" height="246" key="GridCell.Tab.0.bottom" timestamp="1594997287137">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.bottom/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1506" height="246" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1594594241396" />
-    <state width="1506" height="246" key="GridCell.Tab.0.center" timestamp="1594594241396">
+    <state width="1662" height="246" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1594997287137" />
+    <state width="1662" height="246" key="GridCell.Tab.0.center" timestamp="1594997287137">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.center/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1506" height="246" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1594594241396" />
-    <state width="1506" height="246" key="GridCell.Tab.0.left" timestamp="1594594241396">
+    <state width="1662" height="246" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1594997287137" />
+    <state width="1662" height="246" key="GridCell.Tab.0.left" timestamp="1594997287137">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.left/0.0.1463.914@0.0.1463.914" timestamp="1591366618524" />
-    <state width="1506" height="246" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1594594241396" />
-    <state width="1506" height="246" key="GridCell.Tab.0.right" timestamp="1594594241396">
+    <state width="1662" height="246" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1594997287137" />
+    <state width="1662" height="246" key="GridCell.Tab.0.right" timestamp="1594997287137">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.right/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1506" height="246" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1594594241396" />
+    <state width="1662" height="246" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1594997287137" />
     <state width="1662" height="358" key="GridCell.Tab.1.bottom" timestamp="1592615960310">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
@@ -358,15 +365,15 @@
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="502" y="369" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1707.1067@0.0.1707.1067" timestamp="1593485244114" />
-    <state x="483" y="78" width="1224" height="563" key="new project wizard" timestamp="1592266532129">
+    <state x="483" y="78" width="1224" height="563" key="new project wizard" timestamp="1594657588654">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="135" y="56" key="new project wizard/0.0.1463.914@0.0.1463.914" timestamp="1591141311470" />
-    <state x="483" y="78" width="1224" height="563" key="new project wizard/0.0.1707.1067@0.0.1707.1067" timestamp="1592266532129" />
-    <state x="689" y="388" width="672" height="678" key="search.everywhere.popup" timestamp="1592754835436">
+    <state x="483" y="78" width="1224" height="563" key="new project wizard/0.0.1707.1067@0.0.1707.1067" timestamp="1594657588654" />
+    <state x="689" y="388" width="672" height="678" key="search.everywhere.popup" timestamp="1594995487385">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state x="689" y="388" width="672" height="678" key="search.everywhere.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1592754835436" />
+    <state x="689" y="388" width="672" height="678" key="search.everywhere.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1594995487385" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -492,22 +499,22 @@
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/string/MissingNumber.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcode/binarySearch/MissingNumber.java</url>
           <line>21</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/string/MissingNumber.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcode/binarySearch/MissingNumber.java</url>
           <line>23</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/string/MissingNumber.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcode/binarySearch/MissingNumber.java</url>
           <line>27</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/string/MissingNumber.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcode/binarySearch/MissingNumber.java</url>
           <line>20</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
