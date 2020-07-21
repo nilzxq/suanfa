@@ -6,7 +6,7 @@ package leetcode.dp;
  */
 public class MaxProfit {
     public static int maxProfit(int[] prices){
-        int cost=Integer.MIN_VALUE,profit=0;
+        int cost=Integer.MAX_VALUE,profit=0;
         for(int price:prices){
             cost=Math.min(cost,price);
             profit=Math.max(profit,price-cost);
