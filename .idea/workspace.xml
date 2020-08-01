@@ -2,27 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2">
-      <change afterPath="$PROJECT_DIR$/src/interview/CombinationSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/array/Problem_56_SingleNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/list/Problem_141_HasCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/sort/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/sort/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/sort/MinHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/sort/MinHeap1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/sort/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/BFSWithQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/Problem_55_IsBalanced.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/TreeNode1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/keda1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/keda2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/keda3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/keda4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/sort/ArraysSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interview/Singleton1$LazyHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview/Singleton1$LazyHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interview/Singleton1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview/Singleton1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/BFS$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/tree/BFS$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/BFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/tree/BFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/tree/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/BFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview/Main1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview/Main2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +68,7 @@
       <recent name="basic_learning.Reflect" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main1">
+  <component name="RunManager" selected="Application.keda1">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -89,8 +76,8 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.sort.HeapSort" />
+    <configuration name="ArraysSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.sort.ArraysSort" />
       <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -131,36 +118,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.sort.MinHeap" />
-      <module name="suanfa" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinHeap1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.sort.MinHeap1" />
-      <module name="suanfa" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="keda1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.keda1" />
+      <module name="suanfa" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="keda4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.keda4" />
+      <module name="suanfa" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -192,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.keda1" />
+        <item itemvalue="Application.ArraysSort" />
+        <item itemvalue="Application.keda4" />
         <item itemvalue="Application.Main1" />
         <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.MinHeap1" />
-        <item itemvalue="Application.MinHeap" />
-        <item itemvalue="Application.HeapSort" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +260,12 @@
       <workItem from="1595913034777" duration="9058000" />
       <workItem from="1595978549950" duration="7530000" />
       <workItem from="1596023078966" duration="10640000" />
-      <workItem from="1596035317055" duration="190000" />
+      <workItem from="1596035317055" duration="191000" />
+      <workItem from="1596176977567" duration="3024000" />
+      <workItem from="1596184984485" duration="1875000" />
+      <workItem from="1596236240305" duration="2758000" />
+      <workItem from="1596247063254" duration="3904000" />
+      <workItem from="1596263304351" duration="8514000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
@@ -318,11 +310,11 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="411" y="266" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1463.914@0.0.1463.914" timestamp="1590837007544" />
-    <state x="0" y="388" key="#com.intellij.ide.util.MemberChooser" timestamp="1596016686517">
+    <state x="0" y="388" key="#com.intellij.ide.util.MemberChooser" timestamp="1596245463195">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="0" y="332" key="#com.intellij.ide.util.MemberChooser/0.0.1463.914@0.0.1463.914" timestamp="1591023702113" />
-    <state x="0" y="388" key="#com.intellij.ide.util.MemberChooser/0.0.1707.1067@0.0.1707.1067" timestamp="1596016686517" />
+    <state x="0" y="388" key="#com.intellij.ide.util.MemberChooser/0.0.1707.1067@0.0.1707.1067" timestamp="1596245463195" />
     <state x="581" y="349" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1590837072418">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
@@ -344,26 +336,26 @@
     </state>
     <state x="747" y="391" key="FileChooserDialogImpl/0.0.1463.914@0.0.1463.914" timestamp="1591313636632" />
     <state x="497" y="168" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1595496833878" />
-    <state width="1706" height="177" key="GridCell.Tab.0.bottom" timestamp="1596035097199">
+    <state width="1706" height="176" key="GridCell.Tab.0.bottom" timestamp="1596291837773">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.bottom/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1706" height="177" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1596035097199" />
-    <state width="1706" height="177" key="GridCell.Tab.0.center" timestamp="1596035097199">
+    <state width="1706" height="176" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1596291837773" />
+    <state width="1706" height="176" key="GridCell.Tab.0.center" timestamp="1596291837772">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.center/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1706" height="177" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1596035097199" />
-    <state width="1706" height="177" key="GridCell.Tab.0.left" timestamp="1596035097199">
+    <state width="1706" height="176" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1596291837772" />
+    <state width="1706" height="176" key="GridCell.Tab.0.left" timestamp="1596291837772">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.left/0.0.1463.914@0.0.1463.914" timestamp="1591366618524" />
-    <state width="1706" height="177" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1596035097199" />
-    <state width="1706" height="177" key="GridCell.Tab.0.right" timestamp="1596035097199">
+    <state width="1706" height="176" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1596291837772" />
+    <state width="1706" height="176" key="GridCell.Tab.0.right" timestamp="1596291837773">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.right/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1706" height="177" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1596035097199" />
+    <state width="1706" height="176" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1596291837773" />
     <state width="1706" height="362" key="GridCell.Tab.1.bottom" timestamp="1595947358264">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
@@ -407,10 +399,10 @@
     </state>
     <state x="135" y="56" key="new project wizard/0.0.1463.914@0.0.1463.914" timestamp="1591141311470" />
     <state x="483" y="78" width="1224" height="563" key="new project wizard/0.0.1707.1067@0.0.1707.1067" timestamp="1594657588654" />
-    <state x="689" y="388" width="672" height="678" key="search.everywhere.popup" timestamp="1595778306553">
+    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup" timestamp="1596244779252">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state x="689" y="388" width="672" height="678" key="search.everywhere.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1595778306553" />
+    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1596244779252" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
