@@ -3,6 +3,7 @@ package leetcode.array;
 /**
  * @Author nilzxq
  * @Date 2020-08-07 16:55
+ * 最大滑动窗口
  */
 public class Problem_59_MaxSlidingWindows {
     public static int[] maxSlidingWindows(int[] nums,int k){
