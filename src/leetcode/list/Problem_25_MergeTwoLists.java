@@ -1,6 +1,7 @@
 package leetcode.list;
 
 /**
+ * 合并两个排序的链表
  * @Author nilzxq
  * @Date 2020-07-27 16:21
  */
@@ -28,6 +29,27 @@ public class Problem_25_MergeTwoLists {
         }
     }
     //递归
+
+    /**
+     * 考虑两种情况
+     * 1）以l1开头的
+     * 2）以l2开头的
+     *
+     * 编写递归的第一步，应当是明确当前函数应当完成的功能。
+     *
+     * 函数功能
+     * 返回 l1指向的结点和 l2指向的结点中，值较小的结点
+     * 并将从下级函数获得的返回值，链接到当前结点尾部
+     *
+     * 函数结束条件
+     *
+     * 当 l1 为空，或 l2为空，函数结束
+     * 返回 l1或 l2 中剩下的部分
+
+     * @param l1
+     * @param l2
+     * @return
+     */
     public static ListNode mergeTwoLists(ListNode l1,ListNode l2){
         if(l1==null){
             return l2;
@@ -45,7 +67,7 @@ public class Problem_25_MergeTwoLists {
     }
 
     /**
-     * 伪头节点
+     * 添加伪头节点
      * @param l1
      * @param l2
      * @return

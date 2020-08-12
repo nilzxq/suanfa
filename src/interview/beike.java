@@ -1,5 +1,7 @@
 package interview;
 
+import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -17,22 +19,30 @@ public class beike {
 //        String s=in.next();
 //        System.out.println(helper1(s.toCharArray(),n));
         //Scanner in = new Scanner(System.in);
-//        while (in.hasNextInt()){
-//            int num = in.nextInt();
-//            int n=0,m=0;
-//            for(int i=0;i<num;i++){
-//                n=in.nextInt();
-//                m=in.nextInt();
-//            }
-//            System.out.println(helper2(n,m));
-//        }
+        while (in.hasNextInt()){
+            int num = in.nextInt();
+            int n=0,m=0;
+            for(int i=0;i<num;i++){
+                n=in.nextInt();
+                m=in.nextInt();
+                if(n==1){
+                    System.out.println(helper4(m));
+                }else if(m==1){
+                    System.out.println(helper4(n));
+                }else{
+                    System.out.println(Math.min(helper4(m),helper4(n)));
+                }
 
-        int num = in.nextInt();
-        int[] arr=new int[num];
-        for(int i=0;i<num;i++){
-            arr[i]=in.nextInt();
+            }
+
         }
-        System.out.print(helper3(arr,num));
+
+//        int num = in.nextInt();
+//        int[] arr=new int[num];
+//        for(int i=0;i<num;i++){
+//            arr[i]=in.nextInt();
+//        }
+//        System.out.print(helper3(arr,num));
     }
 
     //替换字母变成回文串
@@ -84,6 +94,15 @@ public class beike {
         return count;
     }
 
+    /**
+     *
+     * 因为找的是最小非1因数，从 2 遍历到 n ** 0.5 还没找到那么 n ** 0.5 之后一定也没有，
+     * 类似我们写判断一个素数的函数。他 java 代码可以这么写小优化下：for(int i = 2, end = Math.sqrt(n); i <= end; i++){ ... }
+     * 能少调用几次 sqrt 方法栈
+     * 求最小因数
+     * @param n
+     * @return
+     */
     public static int helper4(int n){
         for(int i=2;i<=Math.pow(n,0.5);i++){
             if(n%i==0){
