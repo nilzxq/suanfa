@@ -5,12 +5,12 @@ package leetcode.tree;
  * @Author nilzxq
  * @Date 2020-08-13 11:52
  */
-public class Prooblem_27_MirrorTree {
-    public TreeNode mirrorTree(TreeNode root){
-
-        if(root==null){
-            return null;
-        }
-
-    }
-}
+//public class Prooblem_27_MirrorTree {
+//    public TreeNode mirrorTree(TreeNode root){
+//
+//        if(root==null){
+//            return null;
+//        }
+//
+//    }
+//}
