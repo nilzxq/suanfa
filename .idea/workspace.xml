@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/Problem_236_LowestCommonAncestor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/Problem_297_CodeC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/qianxin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/array/Problem_46_Permute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/array/Problem_47_PermuteUnique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_343_IntegerBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/Problem_111_MinDepth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/Problem_752_OpenLock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/Prooblem_27_MirrorTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/Prooblem_27_MirrorTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/Problem_297_CodeC.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/tree/Problem_297_CodeC.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mybatis-study" />
     <property name="settings.editor.selected.configurable" value="ide.date.format" />
   </component>
   <component name="RecentsManager">
@@ -64,7 +68,7 @@
       <recent name="basic_learning.Reflect" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Problem_297_CodeC">
+  <component name="RunManager" selected="Application.qianxin">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -128,22 +132,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem_322_CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.dp.Problem_322_CoinChange" />
-      <module name="suanfa" />
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration name="qianxin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.qianxin" />
+      <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.qianxin" />
         <item itemvalue="Application.Problem_297_CodeC" />
         <item itemvalue="Application.BuildTree" />
         <item itemvalue="Application.Problem_07_BuildTree" />
         <item itemvalue="Application.LevelOrder" />
-        <item itemvalue="Application.Problem_322_CoinChange" />
       </list>
     </recent_temporary>
   </component>
@@ -278,6 +282,8 @@
       <workItem from="1597273442378" duration="1334000" />
       <workItem from="1597278158773" duration="14579000" />
       <workItem from="1597368441153" duration="11797000" />
+      <workItem from="1597446405345" duration="695000" />
+      <workItem from="1597531884783" duration="19342000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
@@ -348,31 +354,31 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="383" y="55" key="CommitChangelistDialog2/0.0.1463.914@0.0.1463.914" timestamp="1591366612618" />
-    <state x="497" y="168" key="FileChooserDialogImpl" timestamp="1595496833878">
+    <state x="497" y="168" key="FileChooserDialogImpl" timestamp="1597574744001">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="747" y="391" key="FileChooserDialogImpl/0.0.1463.914@0.0.1463.914" timestamp="1591313636632" />
-    <state x="497" y="168" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1595496833878" />
-    <state width="1706" height="151" key="GridCell.Tab.0.bottom" timestamp="1597415796158">
+    <state x="497" y="168" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1597574744001" />
+    <state width="1706" height="151" key="GridCell.Tab.0.bottom" timestamp="1597570960251">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.bottom/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1706" height="151" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1597415796158" />
-    <state width="1706" height="151" key="GridCell.Tab.0.center" timestamp="1597415796158">
+    <state width="1706" height="151" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1597570960251" />
+    <state width="1706" height="151" key="GridCell.Tab.0.center" timestamp="1597570960251">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.center/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1706" height="151" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1597415796158" />
-    <state width="1706" height="151" key="GridCell.Tab.0.left" timestamp="1597415796158">
+    <state width="1706" height="151" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1597570960251" />
+    <state width="1706" height="151" key="GridCell.Tab.0.left" timestamp="1597570960251">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.left/0.0.1463.914@0.0.1463.914" timestamp="1591366618524" />
-    <state width="1706" height="151" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1597415796158" />
-    <state width="1706" height="151" key="GridCell.Tab.0.right" timestamp="1597415796158">
+    <state width="1706" height="151" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1597570960251" />
+    <state width="1706" height="151" key="GridCell.Tab.0.right" timestamp="1597570960251">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.right/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1706" height="151" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1597415796158" />
+    <state width="1706" height="151" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1597570960251" />
     <state width="1706" height="364" key="GridCell.Tab.1.bottom" timestamp="1597333274500">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
@@ -411,19 +417,19 @@
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="502" y="369" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1707.1067@0.0.1707.1067" timestamp="1593485244114" />
-    <state x="545" y="288" width="746" height="548" key="find.popup" timestamp="1597241138051">
+    <state x="545" y="288" width="746" height="548" key="find.popup" timestamp="1597560205813">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state x="545" y="288" width="746" height="548" key="find.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1597241138051" />
+    <state x="545" y="288" width="746" height="548" key="find.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1597560205813" />
     <state x="483" y="78" width="1224" height="563" key="new project wizard" timestamp="1594657588654">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="135" y="56" key="new project wizard/0.0.1463.914@0.0.1463.914" timestamp="1591141311470" />
     <state x="483" y="78" width="1224" height="563" key="new project wizard/0.0.1707.1067@0.0.1707.1067" timestamp="1594657588654" />
-    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup" timestamp="1597331126663">
+    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup" timestamp="1597554457472">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1597331126663" />
+    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1597554457472" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
