@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/array/Problem_17_PrintNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/array/Problem_42_MaxSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/list/Problem_06_ReversePrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/string/Problem_05_ReplaceSpace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/string/Problem_58_ReverseLeftWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/Problem_54_KthLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/array/Problem_40_GetLeastNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/array/Problem_57_FindContinuousSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/array/Problem_57_TwoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interview/qianxin.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview/qianxin.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +64,7 @@
       <recent name="basic_learning.Reflect" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Problem_05_ReplaceSpace.replaceSpace">
+  <component name="RunManager" selected="Application.Problem_57_FindContinuousSequence">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -90,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem_07_BuildTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.tree.Problem_07_BuildTree" />
+    <configuration name="Problem_297_CodeC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.tree.Problem_297_CodeC" />
       <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -104,13 +100,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem_297_CodeC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.tree.Problem_297_CodeC" />
+    <configuration name="Problem_57_FindContinuousSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.array.Problem_57_FindContinuousSequence" />
       <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.tree.*" />
+          <option name="PATTERN" value="leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem_57_FindContinuousSequence" />
         <item itemvalue="JUnit.Problem_05_ReplaceSpace.replaceSpace" />
         <item itemvalue="Application.qianxin" />
         <item itemvalue="Application.Problem_297_CodeC" />
         <item itemvalue="Application.BuildTree" />
-        <item itemvalue="Application.Problem_07_BuildTree" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +284,8 @@
       <workItem from="1597446405345" duration="695000" />
       <workItem from="1597531884783" duration="19343000" />
       <workItem from="1597619721286" duration="34000" />
-      <workItem from="1597659497118" duration="7442000" />
+      <workItem from="1597659497118" duration="8257000" />
+      <workItem from="1597705651741" duration="5863000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
@@ -364,46 +361,46 @@
     </state>
     <state x="747" y="391" key="FileChooserDialogImpl/0.0.1463.914@0.0.1463.914" timestamp="1591313636632" />
     <state x="497" y="168" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1597619753583" />
-    <state width="1706" height="151" key="GridCell.Tab.0.bottom" timestamp="1597588748683">
+    <state width="1706" height="308" key="GridCell.Tab.0.bottom" timestamp="1597737011061">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.bottom/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1706" height="151" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1597588748683" />
-    <state width="1706" height="151" key="GridCell.Tab.0.center" timestamp="1597588748683">
+    <state width="1706" height="308" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1597737011061" />
+    <state width="1706" height="308" key="GridCell.Tab.0.center" timestamp="1597737011061">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.center/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1706" height="151" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1597588748683" />
-    <state width="1706" height="151" key="GridCell.Tab.0.left" timestamp="1597588748683">
+    <state width="1706" height="308" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1597737011061" />
+    <state width="1706" height="308" key="GridCell.Tab.0.left" timestamp="1597737011060">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.left/0.0.1463.914@0.0.1463.914" timestamp="1591366618524" />
-    <state width="1706" height="151" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1597588748683" />
-    <state width="1706" height="151" key="GridCell.Tab.0.right" timestamp="1597588748683">
+    <state width="1706" height="308" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1597737011060" />
+    <state width="1706" height="308" key="GridCell.Tab.0.right" timestamp="1597737011061">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.right/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1706" height="151" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1597588748683" />
-    <state width="1706" height="364" key="GridCell.Tab.1.bottom" timestamp="1597333274500">
+    <state width="1706" height="308" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1597737011061" />
+    <state width="1706" height="145" key="GridCell.Tab.1.bottom" timestamp="1597737011034">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="369" key="GridCell.Tab.1.bottom/0.0.1463.914@0.0.1463.914" timestamp="1591111657526" />
-    <state width="1706" height="364" key="GridCell.Tab.1.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1597333274500" />
-    <state width="1706" height="364" key="GridCell.Tab.1.center" timestamp="1597333274500">
+    <state width="1706" height="145" key="GridCell.Tab.1.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1597737011034" />
+    <state width="1706" height="145" key="GridCell.Tab.1.center" timestamp="1597737011034">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="369" key="GridCell.Tab.1.center/0.0.1463.914@0.0.1463.914" timestamp="1591111657525" />
-    <state width="1706" height="364" key="GridCell.Tab.1.center/0.0.1707.1067@0.0.1707.1067" timestamp="1597333274500" />
-    <state width="1706" height="364" key="GridCell.Tab.1.left" timestamp="1597333274500">
+    <state width="1706" height="145" key="GridCell.Tab.1.center/0.0.1707.1067@0.0.1707.1067" timestamp="1597737011034" />
+    <state width="1706" height="145" key="GridCell.Tab.1.left" timestamp="1597737011034">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="369" key="GridCell.Tab.1.left/0.0.1463.914@0.0.1463.914" timestamp="1591111657525" />
-    <state width="1706" height="364" key="GridCell.Tab.1.left/0.0.1707.1067@0.0.1707.1067" timestamp="1597333274500" />
-    <state width="1706" height="364" key="GridCell.Tab.1.right" timestamp="1597333274500">
+    <state width="1706" height="145" key="GridCell.Tab.1.left/0.0.1707.1067@0.0.1707.1067" timestamp="1597737011034" />
+    <state width="1706" height="145" key="GridCell.Tab.1.right" timestamp="1597737011034">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="369" key="GridCell.Tab.1.right/0.0.1463.914@0.0.1463.914" timestamp="1591111657526" />
-    <state width="1706" height="364" key="GridCell.Tab.1.right/0.0.1707.1067@0.0.1707.1067" timestamp="1597333274500" />
+    <state width="1706" height="145" key="GridCell.Tab.1.right/0.0.1707.1067@0.0.1707.1067" timestamp="1597737011034" />
     <state x="574" y="265" width="996" height="707" key="SettingsEditor" timestamp="1597276707864">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
@@ -1223,6 +1220,51 @@
           <url>file://$PROJECT_DIR$/src/leetcode/tree/Problem_07_BuildTree.java</url>
           <line>43</line>
           <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/Problem_57_FindContinuousSequence.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/Problem_57_FindContinuousSequence.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/Problem_57_FindContinuousSequence.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/Problem_57_FindContinuousSequence.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/Problem_57_FindContinuousSequence.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/Problem_57_FindContinuousSequence.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/Problem_57_FindContinuousSequence.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/Problem_57_FindContinuousSequence.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/Problem_57_FindContinuousSequence.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="196" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/dp/Problem_14_CuttingRope.java</url>
