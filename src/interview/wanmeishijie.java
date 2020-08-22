@@ -18,23 +18,43 @@ public class wanmeishijie {
 
     public static int rand7(){
         int n,temp1,temp2;
-        do{
+        while(true){
             temp1=rand5();
             temp2=rand5();
             //n是可以取1~25的随机的数。
             n=(temp1-1)*5+temp2;
-            //当n>21舍去，这样n只能取1~21，对7取模就能取1~7之间的随机数
-        }while(n>21);
+            //当n>21重新生成，即扔掉n>21的数，这样n只能取1~21
+            if(n>21){
+               continue;
+            }else{
+                break;
+            }
+        }
+        //对7取模就能取1~7之间的随机数
         return 1+n%7;
+    }
+
+    //rand8随机生成器制作一个1-7随机数生成器
+    public static int rand8(){
+        int n=(int)(Math.random()*8+1);
+        return n;
+    }
+
+    public static int rand7_1(){
+        int n;
+       do{
+           n=rand8();
+       }while(n>7);
+       return 1+n%7;
     }
 
     public static void main(String[] args) {
 //        for(int i=0;i<100;i++){
-//            System.out.print(rand5()+" ");
+//            System.out.print(rand5()+"\t");
 //        }
 //        System.out.println();
 //        for(int i=0;i<100;i++){
-//            System.out.print(rand7()+" ");
+//            System.out.print(rand7()+"\t");
 //        }
 
         int Max=10000000;
