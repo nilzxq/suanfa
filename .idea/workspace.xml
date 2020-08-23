@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2">
-      <change afterPath="$PROJECT_DIR$/src/interview/yuanfudao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_207_CanFinish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_375_GetMoneyAmount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_416_CanPartition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_518_Change.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/背包.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/list/Problem_35_CopyRandomList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/string/Problem_300_LengthOfLIS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/Problem_32_LevelOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/aiqiyi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/temp1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/tencent0823.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_72_MinDistance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interview/wanmeishijie.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview/wanmeishijie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interview/wanmeishijie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/wanmeishijie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/背包.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/dp/背包.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/string/Problem_1143_LongestCommonSubsequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/string/Problem_1143_LongestCommonSubsequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interview/yuanfudao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/yuanfudao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/dp/Problem_375_GetMoneyAmount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_375_GetMoneyAmount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/string/Problem_1143_LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/string/Problem_1143_LongestCommonSubsequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,7 @@
       <recent name="basic_learning.Reflect" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.背包">
+  <component name="RunManager" selected="Application.temp1">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -94,42 +92,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstanceofTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.sort.InstanceofTest" />
-      <module name="suanfa" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Problem_207_CanFinish" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.dp.Problem_207_CanFinish" />
-      <module name="suanfa" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="shunfeng" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.shunfeng" />
+    <configuration name="aiqiyi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.aiqiyi" />
       <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -142,8 +112,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="wanmeishijie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.wanmeishijie" />
+    <configuration name="temp1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.temp1" />
+      <module name="suanfa" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tencent0823" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.tencent0823" />
+      <module name="suanfa" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="yuanfudao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.yuanfudao" />
       <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -183,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.temp1" />
+        <item itemvalue="Application.tencent0823" />
+        <item itemvalue="Application.aiqiyi" />
+        <item itemvalue="Application.yuanfudao" />
         <item itemvalue="Application.背包" />
-        <item itemvalue="Application.Problem_207_CanFinish" />
-        <item itemvalue="Application.wanmeishijie" />
-        <item itemvalue="Application.shunfeng" />
-        <item itemvalue="Application.InstanceofTest" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +292,8 @@
       <workItem from="1597843766661" duration="2073000" />
       <workItem from="1597919827746" duration="11824000" />
       <workItem from="1597964572647" duration="11649000" />
-      <workItem from="1598047216530" duration="24573000" />
+      <workItem from="1598047216530" duration="26463000" />
+      <workItem from="1598138350158" duration="22821000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
@@ -340,11 +339,11 @@
     </state>
     <state x="411" y="266" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1463.914@0.0.1463.914" timestamp="1590837007544" />
     <state x="480" y="311" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.1067@0.0.1707.1067" timestamp="1597030100147" />
-    <state x="757" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1598096123692">
+    <state x="757" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1598185729525">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="0" y="332" key="#com.intellij.ide.util.MemberChooser/0.0.1463.914@0.0.1463.914" timestamp="1591023702113" />
-    <state x="757" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1707.1067@0.0.1707.1067" timestamp="1598096123692" />
+    <state x="757" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1707.1067@0.0.1707.1067" timestamp="1598185729525" />
     <state x="581" y="349" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1590837072418">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
@@ -370,46 +369,46 @@
     </state>
     <state x="747" y="391" key="FileChooserDialogImpl/0.0.1463.914@0.0.1463.914" timestamp="1591313636632" />
     <state x="497" y="168" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1598002697491" />
-    <state width="1286" height="307" key="GridCell.Tab.0.bottom" timestamp="1598089310751">
+    <state width="1286" height="234" key="GridCell.Tab.0.bottom" timestamp="1598191167907">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.bottom/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1286" height="307" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1598089310751" />
-    <state width="1286" height="307" key="GridCell.Tab.0.center" timestamp="1598089310750">
+    <state width="1286" height="234" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1598191167907" />
+    <state width="1286" height="234" key="GridCell.Tab.0.center" timestamp="1598191167907">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.center/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1286" height="307" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1598089310750" />
-    <state width="1286" height="307" key="GridCell.Tab.0.left" timestamp="1598089310750">
+    <state width="1286" height="234" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1598191167907" />
+    <state width="1286" height="234" key="GridCell.Tab.0.left" timestamp="1598191167906">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.left/0.0.1463.914@0.0.1463.914" timestamp="1591366618524" />
-    <state width="1286" height="307" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1598089310750" />
-    <state width="1286" height="307" key="GridCell.Tab.0.right" timestamp="1598089310751">
+    <state width="1286" height="234" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1598191167906" />
+    <state width="1286" height="234" key="GridCell.Tab.0.right" timestamp="1598191167907">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.right/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1286" height="307" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1598089310751" />
-    <state width="1706" height="328" key="GridCell.Tab.1.bottom" timestamp="1598056395559">
+    <state width="1286" height="234" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1598191167907" />
+    <state width="1286" height="251" key="GridCell.Tab.1.bottom" timestamp="1598190467128">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="369" key="GridCell.Tab.1.bottom/0.0.1463.914@0.0.1463.914" timestamp="1591111657526" />
-    <state width="1706" height="328" key="GridCell.Tab.1.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1598056395559" />
-    <state width="1706" height="328" key="GridCell.Tab.1.center" timestamp="1598056395559">
+    <state width="1286" height="251" key="GridCell.Tab.1.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1598190467128" />
+    <state width="1286" height="251" key="GridCell.Tab.1.center" timestamp="1598190467127">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="369" key="GridCell.Tab.1.center/0.0.1463.914@0.0.1463.914" timestamp="1591111657525" />
-    <state width="1706" height="328" key="GridCell.Tab.1.center/0.0.1707.1067@0.0.1707.1067" timestamp="1598056395559" />
-    <state width="1706" height="328" key="GridCell.Tab.1.left" timestamp="1598056395559">
+    <state width="1286" height="251" key="GridCell.Tab.1.center/0.0.1707.1067@0.0.1707.1067" timestamp="1598190467127" />
+    <state width="1286" height="251" key="GridCell.Tab.1.left" timestamp="1598190467127">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="369" key="GridCell.Tab.1.left/0.0.1463.914@0.0.1463.914" timestamp="1591111657525" />
-    <state width="1706" height="328" key="GridCell.Tab.1.left/0.0.1707.1067@0.0.1707.1067" timestamp="1598056395559" />
-    <state width="1706" height="328" key="GridCell.Tab.1.right" timestamp="1598056395559">
+    <state width="1286" height="251" key="GridCell.Tab.1.left/0.0.1707.1067@0.0.1707.1067" timestamp="1598190467127" />
+    <state width="1286" height="251" key="GridCell.Tab.1.right" timestamp="1598190467128">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="369" key="GridCell.Tab.1.right/0.0.1463.914@0.0.1463.914" timestamp="1591111657526" />
-    <state width="1706" height="328" key="GridCell.Tab.1.right/0.0.1707.1067@0.0.1707.1067" timestamp="1598056395559" />
+    <state width="1286" height="251" key="GridCell.Tab.1.right/0.0.1707.1067@0.0.1707.1067" timestamp="1598190467128" />
     <state x="574" y="265" width="996" height="707" key="SettingsEditor" timestamp="1597276707864">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
@@ -441,10 +440,10 @@
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="1110" y="520" key="save.file.as.template.dialog/0.0.1707.1067@0.0.1707.1067" timestamp="1597925800616" />
-    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup" timestamp="1598091072558">
+    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup" timestamp="1598169253934">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1598091072558" />
+    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1598169253934" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1399,6 +1398,51 @@
           <line>49</line>
           <option name="timeStamp" value="221" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/yuanfudao.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/yuanfudao.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/yuanfudao.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/yuanfudao.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/temp1.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/temp1.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/temp1.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/temp1.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/temp1.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/dp/Problem_14_CuttingRope.java</url>
           <line>53</line>
@@ -1406,6 +1450,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/interview/tencent0823.java</url>
+          <line>77</line>
+          <properties class="interview.tencent0823" method="helper1">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="226" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

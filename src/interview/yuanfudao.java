@@ -23,21 +23,21 @@ public class yuanfudao {
     }
 
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        TreeNode node = new TreeNode();
-        int[] arr = new int[n];
-        Queue<Integer> queue = new LinkedList<>();
-        for (int i = 0; i < n; i++) {
-            queue.add(sc.nextInt());
-        }
-        //构建二叉树
-        root = buildTree(queue);
-        //dfs
-        List<Integer> list = dfs(root);
-        System.out.println(list.toArray());
-    }
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//        TreeNode node = new TreeNode();
+//        int[] arr = new int[n];
+//        Queue<Integer> queue = new LinkedList<>();
+//        for (int i = 0; i < n; i++) {
+//            queue.add(sc.nextInt());
+//        }
+//        //构建二叉树
+//        root = buildTree(queue);
+//        //dfs
+//        List<Integer> list = dfs(root);
+//        System.out.println(list.toArray());
+//    }
 
     public static TreeNode buildTree(Queue<Integer> queue) {
         while (queue.isEmpty()) {
@@ -107,4 +107,23 @@ public class yuanfudao {
         }
         return max;
     }
+
+    public static int fun1(int i){
+        return i<2?i:fun1(i-1)-fun2(i-1);
+    }
+
+    public static int fun2(int i) {
+        return i<2?i+1:fun2(i-1)-fun1(i-1);
+    }
+
+    public static int fun3(int i){
+        return fun1(i)/fun2(i)+2020;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(fun3(60)%4);
+    }
+
+
+
 }
