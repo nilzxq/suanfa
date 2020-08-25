@@ -11,27 +11,20 @@ public class temp1 {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int k=sc.nextInt();
-        ListNode node=new ListNode(sc.nextInt());
+        ListNode node=new ListNode(0);
         ListNode temp=node;
-        for(int i=1;i<n;i++){
-            node.next=new ListNode(sc.nextInt());
+        for(int i=0;i<n;i++){
+           int value=sc.nextInt();
+            if(n+1!=k){
+                continue;
+            }
+            temp.next=new ListNode(value);
+            temp=temp.next;
+        }
+        while(node!=null){
+            System.out.print(node.val);
             node=node.next;
         }
-        int count=0;
-        ListNode temp2=temp;
-        while(temp!=null){
-
-            if(count==k-1){
-                ListNode t=temp.next;
-                temp.next=t.next;
-               // break;
-            }
-            temp=temp.next;
-
-            count++;
-        }
-        print(temp2);
-
     }
 
     public static class ListNode{

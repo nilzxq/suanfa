@@ -22,4 +22,11 @@ public class Problem_375_GetMoneyAmount {
         return cost(1,n);
     }
 
+    //DP
+//    public int getMoneyAmount1(int n){
+//        int[][] dp=new int[n+1][n+1];
+//        for(int i=1;i<=n;i++){
+//
+//        }
+//    }
 }
