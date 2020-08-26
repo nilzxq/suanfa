@@ -42,4 +42,19 @@ public class Problem_322_CoinChange {
         System.out.println(coinChange1(coins,amount));
     }
 
-}
+    public static int coinChange2(int[] coins,int amount){
+        int n=coins.length;
+        int[] dp=new int[amount+1];//dp[i]凑出硬币为amount的硬币个数
+            for(int j=0;j<amount+1;j++) {
+                dp[j] = j == 0 ? 0 : amount + 1;
+                for (int i = 0; i < n; i++) {
+                    if (j >= coins[i]) {
+                        dp[i] = Math.min(dp[j - coins[i]] + 1,dp[i]);
+                    }
+                }
+            }
+            return dp[amount]==amount+1?-1:dp[amount];
+        }
+    }
+
+
