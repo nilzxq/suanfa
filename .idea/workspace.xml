@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2">
-      <change afterPath="$PROJECT_DIR$/src/interview/alibaba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/zidianxu2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_19_IsMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/StoneGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/list/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/list/Problem_18_DeleteNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interview/temp1$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview/temp1$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interview/temp1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview/temp1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/dp/Problem_322_CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_322_CoinChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/dp/Problem_518_Change.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_518_Change.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_19_DP_IsMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/dp/Problem_19_DP_IsMatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_322_CoinChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/dp/Problem_322_CoinChange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_518_Change.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/dp/Problem_518_Change.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_983_MincostTickets.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/dp/Problem_983_MincostTickets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/dp/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/dp/Problem_19_DP_IsMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_19_DP_IsMatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/dp/Problem_983_MincostTickets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_983_MincostTickets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +71,7 @@
       <recent name="basic_learning.Reflect" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.zidianxu2">
+  <component name="RunManager" selected="Application.LinkedList">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -77,22 +79,22 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="aiqiyi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.aiqiyi" />
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.list.LinkedList" />
       <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.*" />
+          <option name="PATTERN" value="leetcode.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -180,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.zidianxu2" />
         <item itemvalue="Application.alibaba" />
         <item itemvalue="Application.temp1" />
         <item itemvalue="Application.tencent0823" />
-        <item itemvalue="Application.aiqiyi" />
       </list>
     </recent_temporary>
   </component>
@@ -297,6 +299,8 @@
       <workItem from="1598306487001" duration="2365000" />
       <workItem from="1598363305625" duration="631000" />
       <workItem from="1598395560379" duration="15386000" />
+      <workItem from="1598480474429" duration="6511000" />
+      <workItem from="1598523966522" duration="5289000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
@@ -372,26 +376,26 @@
     </state>
     <state x="747" y="391" key="FileChooserDialogImpl/0.0.1463.914@0.0.1463.914" timestamp="1591313636632" />
     <state x="497" y="168" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1598002697491" />
-    <state width="1295" height="247" key="GridCell.Tab.0.bottom" timestamp="1598454759645">
+    <state width="1296" height="304" key="GridCell.Tab.0.bottom" timestamp="1598534805412">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.bottom/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1295" height="247" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1598454759645" />
-    <state width="1295" height="247" key="GridCell.Tab.0.center" timestamp="1598454759645">
+    <state width="1296" height="304" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1598534805412" />
+    <state width="1296" height="304" key="GridCell.Tab.0.center" timestamp="1598534805411">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.center/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1295" height="247" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1598454759645" />
-    <state width="1295" height="247" key="GridCell.Tab.0.left" timestamp="1598454759645">
+    <state width="1296" height="304" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1598534805411" />
+    <state width="1296" height="304" key="GridCell.Tab.0.left" timestamp="1598534805410">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.left/0.0.1463.914@0.0.1463.914" timestamp="1591366618524" />
-    <state width="1295" height="247" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1598454759645" />
-    <state width="1295" height="247" key="GridCell.Tab.0.right" timestamp="1598454759645">
+    <state width="1296" height="304" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1598534805410" />
+    <state width="1296" height="304" key="GridCell.Tab.0.right" timestamp="1598534805412">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.right/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1295" height="247" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1598454759645" />
+    <state width="1296" height="304" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1598534805412" />
     <state width="1286" height="251" key="GridCell.Tab.1.bottom" timestamp="1598195767536">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
