@@ -2,15 +2,604 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/array/Problem_03_FindRepeatNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/array/Problem_39_MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/math/Problem_49_NthUglyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/Problem_33_VerifyPostorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/collection/HashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/array/Problem_66_ConstructArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/list/Problem_36_TreeToDoublyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/math/Problem_54_ConvertToBase7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/math/Problem_62_LastRemaining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/stack/Problem_31_ValidateStackSequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/string/Problem_50_FirstUniqChar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/Problem_06_ReversePrint$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/list/Problem_06_ReversePrint$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/Problem_06_ReversePrint.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/list/Problem_06_ReversePrint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/list/Problem_06_ReversePrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/list/Problem_06_ReversePrint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/Problem_32_LevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/Problem_32_LevelOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/backtracking/Problem_38_Permutation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basic_learning/ClassDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basic_learning/Foo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basic_learning/MultiThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basic_learning/MyRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basic_learning/Problem_01_Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basic_learning/Reflect/ClassloaderAndForNameTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basic_learning/Reflect/ISomeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basic_learning/Reflect/ISomeServiceImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basic_learning/Reflect/Line.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basic_learning/Reflect/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basic_learning/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basic_learning/SynchronizedDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basic_learning/ThreadPoolExcutorDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/bilibili/Code_01_NetherlandsFlag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/blog/EightQueen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/blog/FindNearestNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/blog/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/blog/test_list.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/book_2018_07_24_stack/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/book_2018_07_24_stack/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/book_2018_07_24_stack/DogCatQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/book_2018_07_24_stack/GetMaxWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/book_2018_07_24_stack/HanoiProblem$Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/book_2018_07_24_stack/HanoiProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/book_2018_07_24_stack/MyStack1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/book_2018_07_24_stack/MyStack2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/book_2018_07_24_stack/Pet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/book_2018_07_24_stack/PetEnterQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/book_2018_07_24_stack/Problem_08_MaxTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/book_2018_07_24_stack/Problem_08_MaxTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/book_2018_07_24_stack/Problem_09_CopyListWithRandom$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/book_2018_07_24_stack/Problem_09_CopyListWithRandom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/book_2018_07_24_stack/Problem_09_MaximalRectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/book_2018_07_24_stack/Problem_10_AllLessNumSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/book_2018_07_24_stack/ReverseStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/book_2018_07_24_stack/SortStackByStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/book_2018_07_24_stack/TwoStackQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/bu/FindMaxKthNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/bu/InsertSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/bu/LCSubsequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/bu/MinPathSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/bu/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/bu/TopKPath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_2_listproblem/Problem_01_PrintCommonPart$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_2_listproblem/Problem_01_PrintCommonPart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_2_listproblem/Problem_02_RemoveLastKthNode$DoubleNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_2_listproblem/Problem_02_RemoveLastKthNode$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_2_listproblem/Problem_02_RemoveLastKthNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_2_listproblem/Problem_03_RemoveNodeByRatio$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_2_listproblem/Problem_03_RemoveNodeByRatio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_2_listproblem/Problem_07_IsPalindromeList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_2_listproblem/Problem_07_IsPalindromeList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_2_listproblem/Problem_08_SmallerEqualBigger$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_2_listproblem/Problem_08_SmallerEqualBigger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_2_listproblem/Problem_09_CopyListWithRandom$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_2_listproblem/Problem_09_CopyListWithRandom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_2_listproblem/Problem_10_AddTwoLinkedLists$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_2_listproblem/Problem_10_AddTwoLinkedLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_2_listproblem/Problem_13_RemoveRepetition$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_2_listproblem/Problem_13_RemoveRepetition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_2_listproblem/Problem_16_ListSelectionSort$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_2_listproblem/Problem_16_ListSelectionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_2_listproblem/Problem_20_RelocateLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_2_listproblem/Problem_20_RelocateLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_2_listproblem/test$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_2_listproblem/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_01_PreInPosTraversal$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_01_PreInPosTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_02_PrintEdgeNodes$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_02_PrintEdgeNodes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_03_PrintBinaryTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_03_PrintBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_04_SerializeAndReconstructTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_04_SerializeAndReconstructTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_05_MorrisTraversal$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_05_MorrisTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_06_LongestPathSum$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_06_LongestPathSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_07_BiggestSubBSTInTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_07_BiggestSubBSTInTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_08_BiggestBSTTopologyInTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_08_BiggestBSTTopologyInTree$Record.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_08_BiggestBSTTopologyInTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_09_PrintBinaryTreeByLevelAndZigZag$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_09_PrintBinaryTreeByLevelAndZigZag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_10_RecoverBST$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_10_RecoverBST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_11_T1ContainsT2Topology$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_11_T1ContainsT2Topology.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_13_IsBalancedTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_13_IsBalancedTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_16_SortedArrayToBalancedBST$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_16_SortedArrayToBalancedBST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_17_DescendantNode$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_17_DescendantNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_18_LowestCommonAncestor$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_18_LowestCommonAncestor$Record1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_18_LowestCommonAncestor$Record2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_18_LowestCommonAncestor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_20_MaxDistanceInTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_20_MaxDistanceInTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_21_PreInPosArrayToTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_21_PreInPosArrayToTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_22_PreAndInArrayToPosArray$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_22_PreAndInArrayToPosArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_23_UniqueBST$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_23_UniqueBST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_24_CompleteTreeNodeNumber$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_3_binarytreeproblem/Problem_24_CompleteTreeNodeNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_4_recursionanddp/Problem_01_FibonacciProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_4_recursionanddp/Problem_02_MinPathSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_4_recursionanddp/Problem_03_CoinsMin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_4_recursionanddp/Problem_04_CoinsWay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_4_recursionanddp/Problem_05_LIS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_4_recursionanddp/Problem_06_HanoiProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_4_recursionanddp/Problem_09_EditCost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_4_recursionanddp/Problem_10_StringCross.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_4_recursionanddp/Problem_11_DungeonGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_4_recursionanddp/Problem_15_JumpGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_4_recursionanddp/Problem_16_LongestConsecutive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_4_recursionanddp/Problem_17_NQueens.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_5_stringproblem/Problem_01_IsDeformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_5_stringproblem/Problem_02_AllNumbersSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_5_stringproblem/Problem_05_ConvertStringToInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_5_stringproblem/Problem_06_ReplaceString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_5_stringproblem/Problem_07_ConvertStringToCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_5_stringproblem/Problem_09_FindStringInContainsNullArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_5_stringproblem/Problem_10_ModifyAndReplace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_5_stringproblem/Problem_11_RotateString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_5_stringproblem/Problem_12_MinDistance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_5_stringproblem/Problem_13_PalindromeString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_5_stringproblem/Problem_14_ParenthesesProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_5_stringproblem/Problem_17_LowestLexicography$MyComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_5_stringproblem/Problem_17_LowestLexicography.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_5_stringproblem/Problem_18_LongestNoRepeatSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_5_stringproblem/Problem_19_FindNewTypeChar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_5_stringproblem/Problem_20_MinWindowLength.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_5_stringproblem/Problem_21_PalindromeMinCut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_5_stringproblem/Problem_23_TrieTree$Trie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_5_stringproblem/Problem_23_TrieTree$TrieNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_5_stringproblem/Problem_23_TrieTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_7_bitoperation/Problem_01_SwapWithoutTmp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_7_bitoperation/Problem_02_GetMax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_7_bitoperation/Problem_03_AddMinusMultiDivideByBit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_7_bitoperation/Problem_04_NumberOf1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_7_bitoperation/Problem_05_EvenTimesOddTimes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_7_bitoperation/Problem_06_KTimesOneTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_01_PrintMatrixSpiralOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_02_RotateMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_03_ZigZagPrintMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_04_FindMinKNums.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_04_FindMinKNums_copy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_05_MinLengthForSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_06_FindKMajority.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_07_FindNumInSortedMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_08_LongestIntegratedLength.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_09_PrintUniquePairAndTriad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_10_LongestSumSubArrayLengthInPositiveArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_11_LongestSumSubArrayLength.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_12_LongestLessSumSubArrayLength.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_13_SmallSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_14_SortNaturalNumberArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_15_EvenInEvenOddInOdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_16_SubArrayMaxSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_17_SubMatrixMaxSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_18_FindOneLessValueIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_19_SubArrayMaxProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_20_PrintMaxTopK$HeapNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_20_PrintMaxTopK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_21_MaxOneBorderSize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_22_MultiplyExceptOwn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_23_PartitionArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_24_MinPathValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_25_SmallestMissNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_8_arrayandmatrix/Problem_26_MaxGap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_02_GCD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_03_FactorialProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_04_PointInRectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_05_PointInTriangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_06_PaperFolding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_07_ReservoirSampling.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_08_SetAllHashMap$MyHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_08_SetAllHashMap$MyValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_08_SetAllHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_09_MaxABSBetweenLeftAndRight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_10_LeastRecentlyUsedCache$MyCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_10_LeastRecentlyUsedCache$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_10_LeastRecentlyUsedCache$NodeDoubleLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_10_LeastRecentlyUsedCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_12_ProbabilityXPowerK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_15_NumberAndString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_16_OneNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_17_PrintRandomM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_18_PalindromeNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_19_SortedRatateArrayFindMin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_20_SortedRatateArrayFindNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_21_ChineseExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_21_EnglishExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_22_CandyProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_23_ReceiveAndPrintOrderLine$MessageBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_23_ReceiveAndPrintOrderLine$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter_9_others/Problem_23_ReceiveAndPrintOrderLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/douyu_2017_09_14/Problem_01_CoinsWay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/Jingdong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/Main1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/Main2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/Main3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/ReverseSingleList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/ReverseSingleList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/Singleton1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/Singleton1$LazyHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/Singleton1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/SingletonEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/SqrtTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/aiqiyi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/alibaba$Zidian.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/alibaba.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/beike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/genshuixue1$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/genshuixue1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/keda1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/keda1$MyComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/keda1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/keda2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/keda3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/keda4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/pinduoduo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/qianxin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/shunfeng$MyCompactor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/shunfeng$Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/shunfeng.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/temp1$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/temp1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/tencent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/tencent0823$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/tencent0823.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/wangyi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/wanmeishijie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/wanyi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/yuanfudao$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/yuanfudao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/zidianxu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/zidianxu2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/array/MaxSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/array/Problem_04_FindNumberIn2DArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/array/Problem_10_NumWays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/array/Problem_110_ArrayChange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/array/Problem_16_MyPow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/array/Problem_17_PrintNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/array/Problem_215_FindKthLargest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/array/Problem_2_AddTwoNumbers$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/array/Problem_2_AddTwoNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/array/Problem_37_MaxTeam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/array/Problem_40_GetLeastNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/array/Problem_42_MaxSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/array/Problem_46_Permute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/array/Problem_47_MaxValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/array/Problem_47_PermuteUnique.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/array/Problem_56_EatChocolate$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/array/Problem_56_EatChocolate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/array/Problem_56_SingleNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/array/Problem_56_SingleNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/array/Problem_57_FindContinuousSequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/array/Problem_57_TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/array/Problem_59_MaxSlidingWindows.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/array/Solution215.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/binarySearch/MissingNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/bit/Problem_15_HammingWeight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/bit/Problem_16_MyPow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/bit/Problem_231_IsPowerOfTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/bit/Problem_268_MissingNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/bit/Problem_68_BitNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/CoinsWay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/CuttingRope.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/LongestPalindromeSubseq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/MaxProfit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/MaxValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_12_DP_Exist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_14_CuttingRope.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_19_DP_IsMatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_19_IsMatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_207_CanFinish.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_322_CoinChange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_32_DP_ClimbStairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_33_DP_MaxProfit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_33_DP_MaxSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_343_IntegerBreak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_35_DP_Rob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_375_GetMoneyAmount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_416_CanPartition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_42_MaxSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_47_MaxValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_518_Change.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_53_MaxSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_63_DP_UniquePathsWithObstacles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_66_Flower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_72_MinDistance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_983_MincostTickets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problem_DP_MaxSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Problme_DP_CuttingRope.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/Solution1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/StoneGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/dp/背包.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/MaxQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_01_Array_RemoveDuplicates.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_03_Array_Rotate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_04_Array_ContainsDuplicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_05_Array_SingleNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_05_String_LongestPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_06_Array_Intersect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_07_Array_PlusOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_08_Array_MoveZeroes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_09_Array_TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_100_Map_isIsomorphic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_1011_BinarySearch_ShipWithinDays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_101_List_FindRestaurant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_102_HashMap_ContainsNearbyDuplicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_1038_Tree_BstToGst.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_103_HashMap_GroupAnagrams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_104_HashMap_FindDuplicateSubtrees$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_104_HashMap_FindDuplicateSubtrees$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_104_HashMap_FindDuplicateSubtrees.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_105_HashMap_NumJewelsInStones.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_106_HashMap_LengthOfLongestSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_107_HashMap_FourSumCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_108_String_ReverseString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_109_Tree_RightSideView$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_109_Tree_RightSideView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_10_Array_IsValidSudoku.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_110_List_ReverseList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_110_List_ReverseList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_11_Array_Rotate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_11_MaxArea.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_1292_BinarySearch_MaxSideLength.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_12_String_Reverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_1367_Tree_IsSubPath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_13_String_FirstUniqChar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_14_String_IsAnagram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_155_MinStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_15_String_isPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_16_String_MyAtoi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_17_String_StrStr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_18_String_CountAndSay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_19_String_LongestCommonPrefix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_20_List_DeleteNode$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_20_List_DeleteNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_21_List_RemoveNthFromEnd$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_21_List_RemoveNthFromEnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_22_List_ReverseList$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_22_List_ReverseList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_22_Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_230_Tree_KthSmallest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_23_List_MergeTwoLists$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_23_List_MergeTwoLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_24_List_HasCycle$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_24_List_HasCycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_24_List_IsPalindrome$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_24_List_IsPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_26_List_MaxDepth$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_26_List_MaxDepth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_26_RemoveDuplicates.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_27_List_IsValidBST$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_27_List_IsValidBST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_28_List_IsSymmetrical$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_28_List_IsSymmetrical.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_29_DivideTwoIntegers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_29_List_Levelorder$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_29_List_Levelorder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_2_AddTwoNumbers$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_2_AddTwoNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_30_Tree_SortedArrayToBST$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_30_Tree_SortedArrayToBST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_31_Array_Merge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_32_Tree_LevelOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_32_Tree_LevelOrder3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_32_Tree_LevelOrder_1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_32_Tree_LevelOrder_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_36_Design_Solution$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_36_Design_Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_37_Design_MinStack$MinStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_37_Design_MinStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_38_Math_FizzBuzz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_39_Math_CountPrimes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_40_Math_IsPowerOfThree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_41_Math_RomanToInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_42_Other_HammingWeight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_43_Other_HammingDistance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_44_Other_ReverseBits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_45_Other_Generate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_46_Other_IsValid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_47_Other_MissingNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_48_Recursion_SwapPairs$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_48_Recursion_SwapPairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_49_Recurrence_GetRow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_50_Recursion_Fib.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_51_Math_MyPow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_52_Recurrence_KthGrammar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_53_Recurrence_GenerateTrees$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_53_Recurrence_GenerateTrees.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_53_Sort_Search.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_54_Array_PivotIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_54_Tree_KthLargest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_55_Array_DominantIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_55_Tree_MaxDepth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_56_Array_FindDiagonalOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_57_Array_SpiralOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_589_Tree_PreOrder$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_589_Tree_PreOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_58_String_AddBinary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_59_Array_ArrayPairSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_59_MaxSlidingWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_60_Array_TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_61_Array_RemoveElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_62_Array_FindMaxConsecutiveOnes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_63_Array_MinSubArrayLen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_64_Array_ReverseWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_64_SumNums.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_65_Array_ReverseWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_66_Search_Search.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_671_Tree_FindSecondMinimumValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_67_Search_MySqrt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_68_Search_GuessNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_68_Tree_LowestCommonAncestor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_68_Tree_LowestCommonAncestor2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_69_Search_Search.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_70_Search_FindPeakElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_71_Search_FindMin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_72_Search_SearchRange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_73_Search_FindClosestElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_74_Search_IsPerfectSquare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_75_Search_NextGreatestLetter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_76_Search_FindMin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_77_Search_Intersection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_78_Search_FindDuplicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_79_Search_FindMedianSortedArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_80_Search_SmallestDistancePair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_81_Search_SplitArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_82_Queue_MyCircularQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_83_Queue_NumIslands.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_84_Queue_OpenLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_85_Queue_NumSquares.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_86_Stack_DailyTemperatures.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_87_Stack_EvalRPN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_88_Stack_CloneGraph$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_88_Stack_CloneGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_89_Stack_FindTargetSumWays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_90_Stack_InorderTraversal$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_90_Stack_InorderTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_91_Stack_MyQueue$MyQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_91_Stack_MyQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_92_Queue_MyStack$MyStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_92_Queue_MyStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_93_Queue_DecodeString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_94_Queue_FloodFill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_95_Queue_UpdateMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_96_Queue_CanVisitAllRooms.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_97_HashSet_MyHashSet$MyHashSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_97_HashSet_MyHashSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_98_HashMap_MyHashMap$MyHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_98_HashMap_MyHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_99_Hash_IsHappy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_BinarySearch_FindMagicIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_GenerateMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_Sort_InsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_String_ReplaceSpace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_Tree_BalanceBST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_Tree_CheckSubTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem_Tree_ConvertBiNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/Problem__02_Array_MaxProfit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/learningAll/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/LinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/Problem_06_ReversePrint$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/Problem_06_ReversePrint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/Problem_141_HasCycle$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/Problem_141_HasCycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/Problem_142_DetectCycle$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/Problem_142_DetectCycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/Problem_18_DeleteNode$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/Problem_18_DeleteNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/Problem_19_RemoveNthFromEnd$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/Problem_19_RemoveNthFromEnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/Problem_22_GetKthFromEnd$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/Problem_22_GetKthFromEnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/Problem_24_ReverseList$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/Problem_24_ReverseList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/Problem_25_MergeTwoLists$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/Problem_25_MergeTwoLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/Problem_35_CopyRandomList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/Problem_35_CopyRandomList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/Problem_52_GetIntersectionNode$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/Problem_52_GetIntersectionNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/Problem_92_ReverseBetween$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/list/Problem_92_ReverseBetween.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/recursion/Problem_16_11_DivingBoard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/set/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/set/HashSetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/set/TreeSetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/sort/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/sort/ArraysSort$MyComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/sort/ArraysSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/sort/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/sort/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/sort/ComaratorSort$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/sort/ComaratorSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/sort/EmpComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/sort/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/sort/Heap$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/sort/Heap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/sort/HeapSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/sort/Heapfy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/sort/InstanceofTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/sort/MinHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/sort/MinHeap1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/sort/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/sort/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/stack/ArrayStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/stack/BracketChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/stack/BracketsApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/stack/CQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/stack/MyStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/stack/ReverseApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/stack/Reverser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/stack/StackX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/string/Exist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/string/IsValid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/string/Problem_05_ReplaceSpace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/string/Problem_1143_LongestCommonSubsequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/string/Problem_1190_ReverseParentheses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/string/Problem_125_isPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/string/Problem_300_LengthOfLIS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/string/Problem_409_LongestPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/string/Problem_516_LongestPalindromeSubseq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/string/Problem_58_ReverseLeftWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/string/Problem_58_String_ReverseWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/string/Problem_5_String_LongestPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/string/ReplaceSpace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/string/StrToInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/BFS$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/BFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/BFSWithQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/BuildTree$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/BuildTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/HasPathSum$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/HasPathSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/LevelOrder$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/LevelOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/PreorderTraversal$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/PreorderTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/Problem_07_BuildTree$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/Problem_07_BuildTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/Problem_104_MaxDepth$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/Problem_104_MaxDepth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/Problem_111_MinDepth$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/Problem_111_MinDepth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/Problem_116_Connect$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/Problem_116_Connect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/Problem_117_Connect$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/Problem_117_Connect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/Problem_236_LowestCommonAncestor$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/Problem_236_LowestCommonAncestor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/Problem_28_IsSymmetric$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/Problem_28_IsSymmetric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/Problem_297_CodeC$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/Problem_297_CodeC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/Problem_32_LevelOrder$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/Problem_32_LevelOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/Problem_437_PathSum$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/Problem_437_PathSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/Problem_54_KthLargest$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/Problem_54_KthLargest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/Problem_55_IsBalanced.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/Problem_752_OpenLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/tree/TreeNode1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/技巧题/矩阵重叠.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/newcoder_2017_10_11/Problem_07_CandyProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nowcoder_2017_07_19/Problem_01_ParenthesesProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nowcoder_2017_07_19/Problem_02_LongestSubarrayLessSumAwesomeSolution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nowcoder_2017_07_19/Problem_02_LongestSumSubArrayLength.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nowcoder_2017_07_19/Problem_02_LongestSumSubArrayLengthInPositiveArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nowcoder_2017_07_19/Problem_03_CardsInLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sort/MergeSort.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +647,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/kill-springboot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.16773017" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="ide.date.format" />
   </component>
   <component name="RecentsManager">
@@ -69,7 +661,7 @@
       <recent name="basic_learning.Reflect" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Problem_06_ReversePrint">
+  <component name="RunManager" selected="Application.HashMapTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -77,13 +669,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.list.LinkedList" />
+    <configuration name="HashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.7" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="interview.collection.HashMapTest" />
       <module name="suanfa" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.list.*" />
+          <option name="PATTERN" value="interview.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,50 +698,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem_36_TreeToDoublyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.list.Problem_36_TreeToDoublyList" />
+      <module name="suanfa" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem_54_ConvertToBase7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.math.Problem_54_ConvertToBase7" />
+      <module name="suanfa" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem_66_ConstructArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.array.Problem_66_ConstructArr" />
+      <module name="suanfa" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="alibaba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.alibaba" />
-      <module name="suanfa" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="temp1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.temp1" />
-      <module name="suanfa" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="zidianxu2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.zidianxu2" />
-      <module name="suanfa" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -178,13 +771,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.HashMapTest" />
+      <item itemvalue="Application.Problem_06_ReversePrint" />
+      <item itemvalue="Application.Problem_36_TreeToDoublyList" />
+      <item itemvalue="Application.Problem_54_ConvertToBase7" />
+      <item itemvalue="Application.Problem_66_ConstructArr" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashMapTest" />
+        <item itemvalue="Application.Problem_66_ConstructArr" />
+        <item itemvalue="Application.Problem_36_TreeToDoublyList" />
+        <item itemvalue="Application.Problem_54_ConvertToBase7" />
         <item itemvalue="Application.Problem_06_ReversePrint" />
-        <item itemvalue="Application.LinkedList" />
-        <item itemvalue="Application.zidianxu2" />
-        <item itemvalue="Application.alibaba" />
-        <item itemvalue="Application.temp1" />
       </list>
     </recent_temporary>
   </component>
@@ -300,6 +900,7 @@
       <workItem from="1598480474429" duration="6511000" />
       <workItem from="1598523966522" duration="5784000" />
       <workItem from="1598568716562" duration="15118000" />
+      <workItem from="1598682531999" duration="16147000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
@@ -336,10 +937,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="update Problem_68_Tree_LowestCommonAncestor2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="187" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591191903363">
-      <screen x="0" y="0" width="1463" height="914" />
+    <state x="218" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598761211249">
+      <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="187" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1463.914@0.0.1463.914" timestamp="1591191903363" />
+    <state x="218" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1707.1067@0.0.1707.1067" timestamp="1598761211249" />
     <state x="480" y="311" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597030100147">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
@@ -370,31 +972,31 @@
       <screen x="0" y="0" width="1463" height="914" />
     </state>
     <state x="383" y="55" key="CommitChangelistDialog2/0.0.1463.914@0.0.1463.914" timestamp="1591366612618" />
-    <state x="497" y="168" key="FileChooserDialogImpl" timestamp="1598597014083">
+    <state x="177" y="181" key="FileChooserDialogImpl" timestamp="1598761193878">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="747" y="391" key="FileChooserDialogImpl/0.0.1463.914@0.0.1463.914" timestamp="1591313636632" />
-    <state x="497" y="168" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1598597014083" />
-    <state width="1662" height="374" key="GridCell.Tab.0.bottom" timestamp="1598604711098">
+    <state x="177" y="181" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1598761193878" />
+    <state width="1662" height="216" key="GridCell.Tab.0.bottom" timestamp="1598825714050">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.bottom/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1662" height="374" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1598604711098" />
-    <state width="1662" height="374" key="GridCell.Tab.0.center" timestamp="1598604711097">
+    <state width="1662" height="216" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1598825714050" />
+    <state width="1662" height="216" key="GridCell.Tab.0.center" timestamp="1598825714050">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.center/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1662" height="374" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1598604711097" />
-    <state width="1662" height="374" key="GridCell.Tab.0.left" timestamp="1598604711097">
+    <state width="1662" height="216" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1598825714050" />
+    <state width="1662" height="216" key="GridCell.Tab.0.left" timestamp="1598825714050">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.left/0.0.1463.914@0.0.1463.914" timestamp="1591366618524" />
-    <state width="1662" height="374" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1598604711097" />
-    <state width="1662" height="374" key="GridCell.Tab.0.right" timestamp="1598604711097">
+    <state width="1662" height="216" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1598825714050" />
+    <state width="1662" height="216" key="GridCell.Tab.0.right" timestamp="1598825714050">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.right/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1662" height="374" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1598604711097" />
+    <state width="1662" height="216" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1598825714050" />
     <state width="1286" height="251" key="GridCell.Tab.1.bottom" timestamp="1598195767536">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
@@ -415,11 +1017,11 @@
     </state>
     <state width="1420" height="369" key="GridCell.Tab.1.right/0.0.1463.914@0.0.1463.914" timestamp="1591111657526" />
     <state width="1286" height="251" key="GridCell.Tab.1.right/0.0.1707.1067@0.0.1707.1067" timestamp="1598195767535" />
-    <state x="574" y="265" width="996" height="707" key="SettingsEditor" timestamp="1597276707864">
+    <state x="257" y="201" width="996" height="707" key="SettingsEditor" timestamp="1598761510590">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="269" y="119" key="SettingsEditor/0.0.1463.914@0.0.1463.914" timestamp="1591312431157" />
-    <state x="574" y="265" width="996" height="707" key="SettingsEditor/0.0.1707.1067@0.0.1707.1067" timestamp="1597276707864" />
+    <state x="257" y="201" width="996" height="707" key="SettingsEditor/0.0.1707.1067@0.0.1707.1067" timestamp="1598761510590" />
     <state x="446" y="270" key="Vcs.Push.Dialog.v2" timestamp="1597330662402">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
@@ -437,19 +1039,19 @@
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="545" y="288" width="746" height="548" key="find.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1597560205813" />
-    <state x="7" y="153" width="1224" height="563" key="new project wizard" timestamp="1598604708029">
+    <state x="51" y="109" width="1224" height="563" key="new project wizard" timestamp="1598761552390">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="135" y="56" key="new project wizard/0.0.1463.914@0.0.1463.914" timestamp="1591141311470" />
-    <state x="7" y="153" width="1224" height="563" key="new project wizard/0.0.1707.1067@0.0.1707.1067" timestamp="1598604708029" />
+    <state x="51" y="109" width="1224" height="563" key="new project wizard/0.0.1707.1067@0.0.1707.1067" timestamp="1598761552390" />
     <state x="1110" y="520" key="save.file.as.template.dialog" timestamp="1597925800616">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="1110" y="520" key="save.file.as.template.dialog/0.0.1707.1067@0.0.1707.1067" timestamp="1597925800616" />
-    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup" timestamp="1598400038708">
+    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup" timestamp="1598750188507">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1598400038708" />
+    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1598750188507" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
