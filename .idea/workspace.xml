@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/array/Problem_45_MinNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/bit/Problem_65_Add.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/math/Problem_60_TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/recursion/Problem_34_PathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/sort/Problem_41_MedianFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/stack/Problem_09_CQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/stack/Problem_30_MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/Baidu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/DFS/Problem_13_MovingCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/binarySearch/Problem_11_MinArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_05_LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_1312_MinInsertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_46_translateNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/sort/Problem_56_Merge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/stack/Problem_59_MaxQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/string/Problem_48_LengthOfLongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/Problem_26_IsSubStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/MergeSort1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/Problem_61_IsStraight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/Problem_66_ConstructArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/Problem_66_ConstructArr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/math/Problem_60_TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/math/Problem_60_TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/Problem_33_VerifyPostorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/Problem_33_VerifyPostorder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +78,27 @@
       <recent name="basic_learning.Reflect" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashMapTest">
+  <component name="RunManager" selected="Application.Baidu">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="Baidu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.Baidu" />
+      <module name="suanfa" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="HashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.7" />
@@ -88,20 +108,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="interview.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Problem_06_ReversePrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.list.Problem_06_ReversePrint" />
-      <module name="suanfa" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,18 +190,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.HashMapTest" />
-      <item itemvalue="Application.Problem_06_ReversePrint" />
       <item itemvalue="Application.Problem_36_TreeToDoublyList" />
       <item itemvalue="Application.Problem_54_ConvertToBase7" />
       <item itemvalue="Application.Problem_66_ConstructArr" />
+      <item itemvalue="Application.Baidu" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Baidu" />
         <item itemvalue="Application.HashMapTest" />
         <item itemvalue="Application.Problem_66_ConstructArr" />
         <item itemvalue="Application.Problem_36_TreeToDoublyList" />
         <item itemvalue="Application.Problem_54_ConvertToBase7" />
-        <item itemvalue="Application.Problem_06_ReversePrint" />
       </list>
     </recent_temporary>
   </component>
@@ -315,6 +321,7 @@
       <workItem from="1598875801441" duration="3272000" />
       <workItem from="1598912440448" duration="5294000" />
       <workItem from="1598999299897" duration="5489000" />
+      <workItem from="1599086610456" duration="27230000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
@@ -391,46 +398,46 @@
     </state>
     <state x="747" y="391" key="FileChooserDialogImpl/0.0.1463.914@0.0.1463.914" timestamp="1591313636632" />
     <state x="177" y="181" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1598761193878" />
-    <state width="1662" height="216" key="GridCell.Tab.0.bottom" timestamp="1598825714050">
+    <state width="1566" height="254" key="GridCell.Tab.0.bottom" timestamp="1599144219661">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.bottom/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1662" height="216" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1598825714050" />
-    <state width="1662" height="216" key="GridCell.Tab.0.center" timestamp="1598825714050">
+    <state width="1566" height="254" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1599144219661" />
+    <state width="1566" height="254" key="GridCell.Tab.0.center" timestamp="1599144219661">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.center/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1662" height="216" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1598825714050" />
-    <state width="1662" height="216" key="GridCell.Tab.0.left" timestamp="1598825714050">
+    <state width="1566" height="254" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1599144219661" />
+    <state width="1566" height="254" key="GridCell.Tab.0.left" timestamp="1599144219661">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.left/0.0.1463.914@0.0.1463.914" timestamp="1591366618524" />
-    <state width="1662" height="216" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1598825714050" />
-    <state width="1662" height="216" key="GridCell.Tab.0.right" timestamp="1598825714050">
+    <state width="1566" height="254" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1599144219661" />
+    <state width="1566" height="254" key="GridCell.Tab.0.right" timestamp="1599144219661">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.right/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1662" height="216" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1598825714050" />
-    <state width="1286" height="251" key="GridCell.Tab.1.bottom" timestamp="1598195767536">
+    <state width="1566" height="254" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1599144219661" />
+    <state width="1566" height="254" key="GridCell.Tab.1.bottom" timestamp="1599144219662">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="369" key="GridCell.Tab.1.bottom/0.0.1463.914@0.0.1463.914" timestamp="1591111657526" />
-    <state width="1286" height="251" key="GridCell.Tab.1.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1598195767536" />
-    <state width="1286" height="251" key="GridCell.Tab.1.center" timestamp="1598195767535">
+    <state width="1566" height="254" key="GridCell.Tab.1.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1599144219662" />
+    <state width="1566" height="254" key="GridCell.Tab.1.center" timestamp="1599144219661">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="369" key="GridCell.Tab.1.center/0.0.1463.914@0.0.1463.914" timestamp="1591111657525" />
-    <state width="1286" height="251" key="GridCell.Tab.1.center/0.0.1707.1067@0.0.1707.1067" timestamp="1598195767535" />
-    <state width="1286" height="251" key="GridCell.Tab.1.left" timestamp="1598195767535">
+    <state width="1566" height="254" key="GridCell.Tab.1.center/0.0.1707.1067@0.0.1707.1067" timestamp="1599144219661" />
+    <state width="1566" height="254" key="GridCell.Tab.1.left" timestamp="1599144219661">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="369" key="GridCell.Tab.1.left/0.0.1463.914@0.0.1463.914" timestamp="1591111657525" />
-    <state width="1286" height="251" key="GridCell.Tab.1.left/0.0.1707.1067@0.0.1707.1067" timestamp="1598195767535" />
-    <state width="1286" height="251" key="GridCell.Tab.1.right" timestamp="1598195767535">
+    <state width="1566" height="254" key="GridCell.Tab.1.left/0.0.1707.1067@0.0.1707.1067" timestamp="1599144219661" />
+    <state width="1566" height="254" key="GridCell.Tab.1.right" timestamp="1599144219661">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="369" key="GridCell.Tab.1.right/0.0.1463.914@0.0.1463.914" timestamp="1591111657526" />
-    <state width="1286" height="251" key="GridCell.Tab.1.right/0.0.1707.1067@0.0.1707.1067" timestamp="1598195767535" />
+    <state width="1566" height="254" key="GridCell.Tab.1.right/0.0.1707.1067@0.0.1707.1067" timestamp="1599144219661" />
     <state x="257" y="201" width="996" height="707" key="SettingsEditor" timestamp="1598761510590">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
@@ -462,10 +469,10 @@
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="1110" y="520" key="save.file.as.template.dialog/0.0.1707.1067@0.0.1707.1067" timestamp="1597925800616" />
-    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup" timestamp="1598750188507">
+    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup" timestamp="1599097545435">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1598750188507" />
+    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1599097545435" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1439,6 +1446,51 @@
           <url>file://$PROJECT_DIR$/src/interview/yuanfudao.java</url>
           <line>111</line>
           <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/math/Problem_60_TwoSum.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/Baidu.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/Baidu.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/Baidu.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/Baidu.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/Baidu.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/Baidu.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/Baidu.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/Baidu.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="238" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/dp/Problem_14_CuttingRope.java</url>
