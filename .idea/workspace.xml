@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2">
-      <change afterPath="$PROJECT_DIR$/src/interview/Baidu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/DFS/Problem_13_MovingCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/binarySearch/Problem_11_MinArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_05_LongestPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_1312_MinInsertions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_46_translateNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/sort/Problem_56_Merge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/stack/Problem_59_MaxQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/string/Problem_48_LengthOfLongestSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/Problem_26_IsSubStructure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/MergeSort1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/Problem_61_IsStraight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/GetMaxConsecutiveOnes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/sougou.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/变态台阶.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/math/Problem_60_TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/math/Problem_60_TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/Problem_33_VerifyPostorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/Problem_33_VerifyPostorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/sort/Problem_56_Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/sort/Problem_56_Merge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +68,27 @@
       <recent name="basic_learning.Reflect" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Baidu">
+  <component name="RunManager" selected="Application.sougou">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="变态台阶" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.dp.变态台阶" />
+      <module name="suanfa" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Baidu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interview.Baidu" />
@@ -115,41 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem_36_TreeToDoublyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.list.Problem_36_TreeToDoublyList" />
+    <configuration name="Problem_56_Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.sort.Problem_56_Merge" />
       <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Problem_54_ConvertToBase7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.math.Problem_54_ConvertToBase7" />
-      <module name="suanfa" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.math.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Problem_66_ConstructArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.array.Problem_66_ConstructArr" />
-      <module name="suanfa" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.array.*" />
+          <option name="PATTERN" value="leetcode.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,6 +135,20 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sougou" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.sougou" />
+      <module name="suanfa" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -190,18 +180,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.HashMapTest" />
-      <item itemvalue="Application.Problem_36_TreeToDoublyList" />
-      <item itemvalue="Application.Problem_54_ConvertToBase7" />
-      <item itemvalue="Application.Problem_66_ConstructArr" />
       <item itemvalue="Application.Baidu" />
+      <item itemvalue="Application.Problem_56_Merge" />
+      <item itemvalue="Application.变态台阶" />
+      <item itemvalue="Application.sougou" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.sougou" />
+        <item itemvalue="Application.变态台阶" />
+        <item itemvalue="Application.Problem_56_Merge" />
         <item itemvalue="Application.Baidu" />
         <item itemvalue="Application.HashMapTest" />
-        <item itemvalue="Application.Problem_66_ConstructArr" />
-        <item itemvalue="Application.Problem_36_TreeToDoublyList" />
-        <item itemvalue="Application.Problem_54_ConvertToBase7" />
       </list>
     </recent_temporary>
   </component>
@@ -322,6 +312,9 @@
       <workItem from="1598912440448" duration="5294000" />
       <workItem from="1598999299897" duration="5489000" />
       <workItem from="1599086610456" duration="27230000" />
+      <workItem from="1599175604932" duration="5172000" />
+      <workItem from="1599217222028" duration="2906000" />
+      <workItem from="1599301190591" duration="5152000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
@@ -398,26 +391,26 @@
     </state>
     <state x="747" y="391" key="FileChooserDialogImpl/0.0.1463.914@0.0.1463.914" timestamp="1591313636632" />
     <state x="177" y="181" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1598761193878" />
-    <state width="1566" height="254" key="GridCell.Tab.0.bottom" timestamp="1599144219661">
+    <state width="1566" height="145" key="GridCell.Tab.0.bottom" timestamp="1599302831012">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.bottom/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1566" height="254" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1599144219661" />
-    <state width="1566" height="254" key="GridCell.Tab.0.center" timestamp="1599144219661">
+    <state width="1566" height="145" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1599302831012" />
+    <state width="1566" height="145" key="GridCell.Tab.0.center" timestamp="1599302831011">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.center/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1566" height="254" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1599144219661" />
-    <state width="1566" height="254" key="GridCell.Tab.0.left" timestamp="1599144219661">
+    <state width="1566" height="145" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1599302831011" />
+    <state width="1566" height="145" key="GridCell.Tab.0.left" timestamp="1599302831010">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.left/0.0.1463.914@0.0.1463.914" timestamp="1591366618524" />
-    <state width="1566" height="254" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1599144219661" />
-    <state width="1566" height="254" key="GridCell.Tab.0.right" timestamp="1599144219661">
+    <state width="1566" height="145" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1599302831010" />
+    <state width="1566" height="145" key="GridCell.Tab.0.right" timestamp="1599302831012">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.right/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1566" height="254" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1599144219661" />
+    <state width="1566" height="145" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1599302831012" />
     <state width="1566" height="254" key="GridCell.Tab.1.bottom" timestamp="1599144219662">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
@@ -456,10 +449,10 @@
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="502" y="369" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1707.1067@0.0.1707.1067" timestamp="1593485244114" />
-    <state x="545" y="288" width="746" height="548" key="find.popup" timestamp="1597560205813">
+    <state x="545" y="288" width="746" height="548" key="find.popup" timestamp="1599219581894">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state x="545" y="288" width="746" height="548" key="find.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1597560205813" />
+    <state x="545" y="288" width="746" height="548" key="find.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1599219581894" />
     <state x="51" y="109" width="1224" height="563" key="new project wizard" timestamp="1598761552390">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
