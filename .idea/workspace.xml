@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2">
-      <change afterPath="$PROJECT_DIR$/src/interview/GetMaxConsecutiveOnes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/sougou.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/变态台阶.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/tenxun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/tenxun2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/sort/Problem_56_Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/sort/Problem_56_Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/sougou.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview/sougou.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interview/sougou.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/sougou.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,7 @@
       <recent name="basic_learning.Reflect" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.sougou">
+  <component name="RunManager" selected="Application.tenxun">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -83,35 +83,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Baidu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.Baidu" />
-      <module name="suanfa" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.7" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="interview.collection.HashMapTest" />
-      <module name="suanfa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interview.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,6 +124,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tenxun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.tenxun" />
+      <module name="suanfa" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tenxun2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.tenxun2" />
+      <module name="suanfa" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -179,19 +178,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HashMapTest" />
-      <item itemvalue="Application.Baidu" />
       <item itemvalue="Application.Problem_56_Merge" />
       <item itemvalue="Application.变态台阶" />
       <item itemvalue="Application.sougou" />
+      <item itemvalue="Application.tenxun" />
+      <item itemvalue="Application.tenxun2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.tenxun" />
+        <item itemvalue="Application.tenxun2" />
         <item itemvalue="Application.sougou" />
         <item itemvalue="Application.变态台阶" />
         <item itemvalue="Application.Problem_56_Merge" />
-        <item itemvalue="Application.Baidu" />
-        <item itemvalue="Application.HashMapTest" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +313,9 @@
       <workItem from="1599086610456" duration="27230000" />
       <workItem from="1599175604932" duration="5172000" />
       <workItem from="1599217222028" duration="2906000" />
-      <workItem from="1599301190591" duration="5152000" />
+      <workItem from="1599301190591" duration="5975000" />
+      <workItem from="1599378094595" duration="6410000" />
+      <workItem from="1599398371754" duration="4388000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
@@ -361,11 +362,11 @@
     </state>
     <state x="411" y="266" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1463.914@0.0.1463.914" timestamp="1590837007544" />
     <state x="480" y="311" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.1067@0.0.1707.1067" timestamp="1597030100147" />
-    <state x="757" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1598403995566">
+    <state x="757" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1599394173472">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="0" y="332" key="#com.intellij.ide.util.MemberChooser/0.0.1463.914@0.0.1463.914" timestamp="1591023702113" />
-    <state x="757" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1707.1067@0.0.1707.1067" timestamp="1598403995566" />
+    <state x="757" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1707.1067@0.0.1707.1067" timestamp="1599394173472" />
     <state x="581" y="349" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1590837072418">
       <screen x="0" y="0" width="1463" height="914" />
     </state>
@@ -391,26 +392,26 @@
     </state>
     <state x="747" y="391" key="FileChooserDialogImpl/0.0.1463.914@0.0.1463.914" timestamp="1591313636632" />
     <state x="177" y="181" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1598761193878" />
-    <state width="1566" height="145" key="GridCell.Tab.0.bottom" timestamp="1599302831012">
+    <state width="1662" height="251" key="GridCell.Tab.0.bottom" timestamp="1599402868016">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.bottom/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1566" height="145" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1599302831012" />
-    <state width="1566" height="145" key="GridCell.Tab.0.center" timestamp="1599302831011">
+    <state width="1662" height="251" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1599402868016" />
+    <state width="1662" height="251" key="GridCell.Tab.0.center" timestamp="1599402868016">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.center/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1566" height="145" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1599302831011" />
-    <state width="1566" height="145" key="GridCell.Tab.0.left" timestamp="1599302831010">
+    <state width="1662" height="251" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1599402868016" />
+    <state width="1662" height="251" key="GridCell.Tab.0.left" timestamp="1599402868016">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.left/0.0.1463.914@0.0.1463.914" timestamp="1591366618524" />
-    <state width="1566" height="145" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1599302831010" />
-    <state width="1566" height="145" key="GridCell.Tab.0.right" timestamp="1599302831012">
+    <state width="1662" height="251" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1599402868016" />
+    <state width="1662" height="251" key="GridCell.Tab.0.right" timestamp="1599402868016">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state width="1420" height="256" key="GridCell.Tab.0.right/0.0.1463.914@0.0.1463.914" timestamp="1591366618525" />
-    <state width="1566" height="145" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1599302831012" />
+    <state width="1662" height="251" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1599402868016" />
     <state width="1566" height="254" key="GridCell.Tab.1.bottom" timestamp="1599144219662">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>

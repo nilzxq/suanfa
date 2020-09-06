@@ -76,6 +76,27 @@ public class sougou {
         return num;
     }
 
+    public int getHouses1 (int t, int[] xa) {
+        int sum=2;
+        double[][] arr=new double[xa.length/2][2];
+        for(int i=0;i<xa.length;i++){
+            int j=i/2;
+            arr[j][0]=(xa[i]-xa[i+1]/2.0);
+            arr[j][1]=(xa[i]+xa[i+1]/2.0);
+            i+=2;
+        }
+        for(int i=0;i<arr.length-1;i++){
+            if(arr[i+1][0]-arr[i][1]>1){
+                sum+=2;
+            }else if(arr[i+1][0]-arr[i][1]==t){
+                sum++;
+            }else{
+                continue;
+            }
+        }
+        return sum;
+    }
+
     public long getPasswordCount (String password) {
         // write code here
         if(password.length()==1){
