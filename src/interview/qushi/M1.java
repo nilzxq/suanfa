@@ -9,8 +9,10 @@ import java.util.Scanner;
 public class M1 {
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
-            String mid=sc.nextLine();
-            String pos=sc.nextLine();
+            //中序遍历
+            String mid=sc.next();
+            //后序遍历
+            String pos=sc.next();
             System.out.println(helper(mid,pos));
         }
 
@@ -20,7 +22,7 @@ public class M1 {
                 if (len == 1) {
                     return pos;
                 }
-                if (len <= 0 || len > 8) {
+                if (len <= 0) {
                     return "";
                 }
                 char root = pos.charAt(len - 1);
