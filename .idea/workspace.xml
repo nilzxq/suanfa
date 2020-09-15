@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2">
-      <change afterPath="$PROJECT_DIR$/src/interview/wuba/M1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/wuba/M3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/wuba/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/wuba/X10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/wuba/X11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/wuba/X4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/wuba/X5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/wuba/xuanze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/DFS/Problem_12_Exist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/array/Problem_41_FirstMissingPositive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/set/Problem_1496_IsPathCrossing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/FindNearestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/xiaomi/M1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/xiaomi/M2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +69,7 @@
       <recent name="basic_learning.Reflect" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindNearestNumber">
+  <component name="RunManager" selected="Application.M1">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -94,6 +84,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="M1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.xiaomi.M1" />
+      <module name="suanfa" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interview.xiaomi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,20 +121,6 @@
     </configuration>
     <configuration name="X11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interview.wuba.X11" />
-      <module name="suanfa" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interview.wuba.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="X4$Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.wuba.X4$Test" />
       <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -189,19 +179,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.X4$Test" />
       <item itemvalue="Application.X5" />
       <item itemvalue="Application.X10" />
       <item itemvalue="Application.X11" />
       <item itemvalue="Application.FindNearestNumber" />
+      <item itemvalue="Application.M1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.M1" />
         <item itemvalue="Application.FindNearestNumber" />
         <item itemvalue="Application.X11" />
         <item itemvalue="Application.X10" />
         <item itemvalue="Application.X5" />
-        <item itemvalue="Application.X4$Test" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +325,7 @@
       <workItem from="1599878890724" duration="8325000" />
       <workItem from="1599950814297" duration="814000" />
       <workItem from="1599958818887" duration="3412000" />
-      <workItem from="1600081599252" duration="20432000" />
+      <workItem from="1600081599252" duration="24668000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
@@ -396,22 +386,22 @@
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="177" y="181" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1598761193878" />
-    <state width="1662" height="318" key="GridCell.Tab.0.bottom" timestamp="1600164537419">
+    <state width="1662" height="153" key="GridCell.Tab.0.bottom" timestamp="1600173151434">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1662" height="318" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1600164537419" />
-    <state width="1662" height="318" key="GridCell.Tab.0.center" timestamp="1600164537418">
+    <state width="1662" height="153" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1600173151434" />
+    <state width="1662" height="153" key="GridCell.Tab.0.center" timestamp="1600173151433">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1662" height="318" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1600164537418" />
-    <state width="1662" height="318" key="GridCell.Tab.0.left" timestamp="1600164537418">
+    <state width="1662" height="153" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1600173151433" />
+    <state width="1662" height="153" key="GridCell.Tab.0.left" timestamp="1600173151433">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1662" height="318" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1600164537418" />
-    <state width="1662" height="318" key="GridCell.Tab.0.right" timestamp="1600164537418">
+    <state width="1662" height="153" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1600173151433" />
+    <state width="1662" height="153" key="GridCell.Tab.0.right" timestamp="1600173151433">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1662" height="318" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1600164537418" />
+    <state width="1662" height="153" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1600173151433" />
     <state width="1662" height="318" key="GridCell.Tab.1.bottom" timestamp="1600164537420">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
