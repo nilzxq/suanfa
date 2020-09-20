@@ -1,5 +1,6 @@
 package interview.jd;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -21,6 +22,7 @@ public class M1 {
                 sb.append(s[i].substring(0,4)+" ");
             }
         }
+        ArrayList<Integer> arr=new  ArrayList<>();
         System.out.println(sb.toString().trim());
     }
 }
