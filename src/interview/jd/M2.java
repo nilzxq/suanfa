@@ -15,12 +15,11 @@ public class M2 {
             int m=sc.nextInt();
             boolean[][] mark=new boolean[n][m];
             char[][] grid=new char[n][m];
-            String temp=sc.nextLine();
+            sc.nextLine();
             for(int i=0;i<n;i++){
                 String str=sc.nextLine();
                 for(int j=0;j<m;j++){
                    grid[i][j]=str.charAt(j);
-                    //System.out.println(grid[i][j]);
                 }
             }
             int begini=0;
@@ -52,7 +51,9 @@ public class M2 {
         return false;
     }
     mark[begini][beginj]=true;
-    return helper(begini-1,beginj,endi,endj,m,n,mark,grid)||helper(begini+1,beginj,endi,endj,m,n,mark,grid)||
-            helper(begini,beginj-1,endi,endj,m,n,mark,grid)||helper(begini,beginj+1,endi,endj,m,n,mark,grid);
+    return helper(begini-1,beginj,endi,endj,m,n,mark,grid)||
+            helper(begini+1,beginj,endi,endj,m,n,mark,grid)||
+            helper(begini,beginj-1,endi,endj,m,n,mark,grid)||
+            helper(begini,beginj+1,endi,endj,m,n,mark,grid);
     }
 }

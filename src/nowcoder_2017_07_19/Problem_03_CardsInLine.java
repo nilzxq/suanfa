@@ -9,7 +9,9 @@ public class Problem_03_CardsInLine {
 		return Math.max(f(arr, 0, arr.length - 1), s(arr, 0, arr.length - 1));
 	}
 
+	//先手
 	public static int f(int[] arr, int i, int j) {
+		//如果i==j也就是只有一个的时候 是先发者 直接拿走这个数
 		if (i == j) {
 			return arr[i];
 		}
