@@ -11,12 +11,14 @@ import java.util.Set;
  */
 public class M3 {
     public static void main(String[] args) {
-        int i=(int)2L;
-        double d=3.4f;//自动类型提升
-        long l=3;//自动类型提升
-        float f=(float) 1.1;
+//        int i=(int)2L;
+//        double d=3.4f;//自动类型提升
+//        long l=3;//自动类型提升
+//        float f=(float) 1.1;
+        int[] nums={2,3,0};
+        System.out.println(firstMissingPositive(nums));
     }
-    public int firstMissingPositive (int[] nums) {
+    public static int firstMissingPositive (int[] nums) {
         // write code here
       Set<Integer> set=new HashSet<Integer>();
       for(int num:nums){

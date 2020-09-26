@@ -44,13 +44,32 @@ public class Solution {
                 if(treeNode.right!=null){
                     queue.add(treeNode.right);
                 }
-                res.add(list);
+
             }
+            res.add(list);
         }
         return res;
     }
 
-    public static void main(String[] args) {
+    public static void changeStringBuffer(StringBuffer m,StringBuffer n){
+        m.append(" world");
+        n=m;
+        //int a=Integer.parseInt(abc789);
+       // int a=int('题');
+       // int a=Integer.parseInt('a');
+        int a=(int)'哈';
 
     }
+//    public static void main(String[] args) {
+//
+//
+//
+//            final StringBuffer str_m=new StringBuffer("Hello");
+//            StringBuffer str_n=new StringBuffer("Hello");
+//            changeStringBuffer(str_m,str_n);
+//            System.out.println(str_m);
+//            System.out.println(str_n);
+//
+//    }
+
 }
