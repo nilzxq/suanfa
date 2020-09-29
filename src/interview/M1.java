@@ -35,17 +35,23 @@ public class M1 {
 //            System.out.println(map.get(s)+":");
 //        }
 ////        System.out.println("Hello World!");
-        final StringBuffer sb = new StringBuffer("123");
-        System.out.println(sb.hashCode());
-        sb.append("45");
-        System.out.println(sb.hashCode());
-        //sb = new StringBuffer();
-        System.out.println(sb.hashCode());
+//        final StringBuffer sb = new StringBuffer("123");
+//        System.out.println(sb.hashCode());
+//        sb.append("45");
+//        System.out.println(sb.hashCode());
+//        //sb = new StringBuffer();
+//        System.out.println(sb.hashCode());
+//
+//
+//       String a = "123";
+//        System.out.println(a.hashCode());
+//        a=a+"45";
+//        System.out.println(a.hashCode());
 
-
-       String a = "123";
-        System.out.println(a.hashCode());
-        a=a+"45";
-        System.out.println(a.hashCode());
+        for(int i=0;i<=Integer.MAX_VALUE;i++){
+            if(i+1<i){
+                System.out.println(i);
+            }
+        }
     }
 }

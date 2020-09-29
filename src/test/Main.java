@@ -14,9 +14,10 @@ public class Main {
 
     public static void main(String[] args) {
         final StringBuffer str_m=new StringBuffer("Hello");
-        StringBuffer str_n=new StringBuffer("Hello");
-        changeStringBuffer(str_m,str_n);
-        System.out.println(str_m);
-        System.out.println(str_n);
+//        StringBuffer str_n=new StringBuffer("Hello");
+//        changeStringBuffer(str_m,str_n);
+//        System.out.println(str_m);
+//        System.out.println(str_n);
+
     }
 }
