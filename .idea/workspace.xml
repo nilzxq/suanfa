@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2">
-      <change afterPath="$PROJECT_DIR$/src/interview/wps/HashPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/webank/M1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/webank/M3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/webank/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/SimpleSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/binarySearch/FirstPositionOfTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interview/M1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview/M1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interview/wuba/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview/wuba/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interview/M1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/M1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,13 +69,27 @@
       <recent name="basic_learning.Reflect" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.M1 (2)">
+  <component name="RunManager" selected="Application.FirstPositionOfTarget">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="FirstPositionOfTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.binarySearch.FirstPositionOfTarget" />
+      <module name="suanfa" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.binarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="M1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.webank.M1" />
@@ -113,34 +119,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.wuba.M3" />
-      <module name="suanfa" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interview.wuba.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.jinshanyun.Main" />
-      <module name="suanfa" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interview.jinshanyun.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interview.wuba.Solution" />
       <module name="suanfa" />
@@ -148,6 +126,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="interview.wuba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test2" />
+      <module name="suanfa" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,19 +179,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.M3" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.M1 (1)" />
       <item itemvalue="Application.M1 (2)" />
+      <item itemvalue="Application.Test2" />
+      <item itemvalue="Application.FirstPositionOfTarget" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstPositionOfTarget" />
+        <item itemvalue="Application.Test2" />
         <item itemvalue="Application.M1 (2)" />
         <item itemvalue="Application.M1 (1)" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.M3" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -349,6 +341,10 @@
       <workItem from="1601167864803" duration="9237000" />
       <workItem from="1601290714327" duration="1835000" />
       <workItem from="1601349266740" duration="2944000" />
+      <workItem from="1601449821852" duration="96000" />
+      <workItem from="1601454183480" duration="2264000" />
+      <workItem from="1601601079416" duration="86000" />
+      <workItem from="1601723589049" duration="616000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
@@ -409,38 +405,38 @@
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="177" y="181" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1598761193878" />
-    <state width="1662" height="210" key="GridCell.Tab.0.bottom" timestamp="1601391477719">
+    <state width="1649" height="209" key="GridCell.Tab.0.bottom" timestamp="1601724119074">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1662" height="210" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1601391477719" />
-    <state width="1662" height="210" key="GridCell.Tab.0.center" timestamp="1601391477717">
+    <state width="1649" height="209" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1601724119074" />
+    <state width="1649" height="209" key="GridCell.Tab.0.center" timestamp="1601724119073">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1662" height="210" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1601391477717" />
-    <state width="1662" height="210" key="GridCell.Tab.0.left" timestamp="1601391477715">
+    <state width="1649" height="209" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1601724119073" />
+    <state width="1649" height="209" key="GridCell.Tab.0.left" timestamp="1601724119073">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1662" height="210" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1601391477715" />
-    <state width="1662" height="210" key="GridCell.Tab.0.right" timestamp="1601391477718">
+    <state width="1649" height="209" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1601724119073" />
+    <state width="1649" height="209" key="GridCell.Tab.0.right" timestamp="1601724119073">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1662" height="210" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1601391477718" />
-    <state width="1545" height="281" key="GridCell.Tab.1.bottom" timestamp="1601213987847">
+    <state width="1649" height="209" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1601724119073" />
+    <state width="1662" height="279" key="GridCell.Tab.1.bottom" timestamp="1601478533818">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1545" height="281" key="GridCell.Tab.1.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1601213987847" />
-    <state width="1545" height="281" key="GridCell.Tab.1.center" timestamp="1601213987846">
+    <state width="1662" height="279" key="GridCell.Tab.1.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1601478533818" />
+    <state width="1662" height="279" key="GridCell.Tab.1.center" timestamp="1601478533818">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1545" height="281" key="GridCell.Tab.1.center/0.0.1707.1067@0.0.1707.1067" timestamp="1601213987846" />
-    <state width="1545" height="281" key="GridCell.Tab.1.left" timestamp="1601213987846">
+    <state width="1662" height="279" key="GridCell.Tab.1.center/0.0.1707.1067@0.0.1707.1067" timestamp="1601478533818" />
+    <state width="1662" height="279" key="GridCell.Tab.1.left" timestamp="1601478533818">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1545" height="281" key="GridCell.Tab.1.left/0.0.1707.1067@0.0.1707.1067" timestamp="1601213987846" />
-    <state width="1545" height="281" key="GridCell.Tab.1.right" timestamp="1601213987847">
+    <state width="1662" height="279" key="GridCell.Tab.1.left/0.0.1707.1067@0.0.1707.1067" timestamp="1601478533818" />
+    <state width="1662" height="279" key="GridCell.Tab.1.right" timestamp="1601478533818">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1545" height="281" key="GridCell.Tab.1.right/0.0.1707.1067@0.0.1707.1067" timestamp="1601213987847" />
+    <state width="1662" height="279" key="GridCell.Tab.1.right/0.0.1707.1067@0.0.1707.1067" timestamp="1601478533818" />
     <state x="257" y="201" width="996" height="707" key="SettingsEditor" timestamp="1598761510590">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
@@ -461,10 +457,10 @@
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="545" y="288" width="746" height="548" key="find.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1599219581894" />
-    <state x="51" y="109" width="1224" height="563" key="new project wizard" timestamp="1600328757840">
+    <state x="51" y="109" width="1224" height="563" key="new project wizard" timestamp="1601601161860">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state x="51" y="109" width="1224" height="563" key="new project wizard/0.0.1707.1067@0.0.1707.1067" timestamp="1600328757840" />
+    <state x="51" y="109" width="1224" height="563" key="new project wizard/0.0.1707.1067@0.0.1707.1067" timestamp="1601601161860" />
     <state x="1110" y="520" key="save.file.as.template.dialog" timestamp="1597925800616">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
@@ -1606,6 +1602,46 @@
           <url>file://$PROJECT_DIR$/src/interview/wuba/M3.java</url>
           <line>40</line>
           <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/Test2.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/Test2.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/Test2.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/Test2.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/Test2.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/Test2.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/Test2.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/Test2.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="269" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/dp/Problem_14_CuttingRope.java</url>
