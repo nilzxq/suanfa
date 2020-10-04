@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/binarySearch/FirstPositionOfTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/lock/DeadLock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/binarySearch/FirstPositionOfTarget.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/binarySearch/FirstPositionOfTarget.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +69,27 @@
       <recent name="basic_learning.Reflect" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FirstPositionOfTarget">
+  <component name="RunManager" selected="Application.DeadLock">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.lock.DeadLock" />
+      <module name="suanfa" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interview.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="FirstPositionOfTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.binarySearch.FirstPositionOfTarget" />
@@ -112,20 +126,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.wuba.Solution" />
-      <module name="suanfa" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interview.wuba.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,19 +179,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.M1 (1)" />
       <item itemvalue="Application.M1 (2)" />
       <item itemvalue="Application.Test2" />
       <item itemvalue="Application.FirstPositionOfTarget" />
+      <item itemvalue="Application.DeadLock" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeadLock" />
         <item itemvalue="Application.FirstPositionOfTarget" />
         <item itemvalue="Application.Test2" />
         <item itemvalue="Application.M1 (2)" />
         <item itemvalue="Application.M1 (1)" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +344,7 @@
       <workItem from="1601449821852" duration="96000" />
       <workItem from="1601454183480" duration="2264000" />
       <workItem from="1601601079416" duration="86000" />
-      <workItem from="1601723589049" duration="616000" />
+      <workItem from="1601723589049" duration="1757000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
@@ -405,22 +405,22 @@
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="177" y="181" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1598761193878" />
-    <state width="1649" height="209" key="GridCell.Tab.0.bottom" timestamp="1601724119074">
+    <state width="1649" height="209" key="GridCell.Tab.0.bottom" timestamp="1601729511600">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1649" height="209" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1601724119074" />
-    <state width="1649" height="209" key="GridCell.Tab.0.center" timestamp="1601724119073">
+    <state width="1649" height="209" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1601729511600" />
+    <state width="1649" height="209" key="GridCell.Tab.0.center" timestamp="1601729511600">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1649" height="209" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1601724119073" />
-    <state width="1649" height="209" key="GridCell.Tab.0.left" timestamp="1601724119073">
+    <state width="1649" height="209" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1601729511600" />
+    <state width="1649" height="209" key="GridCell.Tab.0.left" timestamp="1601729511600">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1649" height="209" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1601724119073" />
-    <state width="1649" height="209" key="GridCell.Tab.0.right" timestamp="1601724119073">
+    <state width="1649" height="209" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1601729511600" />
+    <state width="1649" height="209" key="GridCell.Tab.0.right" timestamp="1601729511600">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1649" height="209" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1601724119073" />
+    <state width="1649" height="209" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1601729511600" />
     <state width="1662" height="279" key="GridCell.Tab.1.bottom" timestamp="1601478533818">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
