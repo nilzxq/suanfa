@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2">
-      <change afterPath="$PROJECT_DIR$/src/interview/lock/DeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/set/Problem_380_RandomizedSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/sort/Problem_1288_RemoveCoveredIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/sort/Problem_56_Merge_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/sort/Problem_986_IntervalIntersection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/binarySearch/FirstPositionOfTarget.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/binarySearch/FirstPositionOfTarget.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +71,7 @@
       <recent name="basic_learning.Reflect" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeadLock">
+  <component name="RunManager" selected="Application.Problem_56_Merge_1">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -105,13 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.webank.M1" />
+    <configuration name="Problem_1288_RemoveCoveredIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.sort.Problem_1288_RemoveCoveredIntervals" />
       <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.webank.*" />
+          <option name="PATTERN" value="leetcode.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,13 +121,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.M1" />
+    <configuration name="Problem_380_RandomizedSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.set.Problem_380_RandomizedSet" />
       <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.*" />
+          <option name="PATTERN" value="leetcode.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,13 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Test2" />
+    <configuration name="Problem_56_Merge_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.sort.Problem_56_Merge_1" />
       <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="leetcode.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,19 +181,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.M1 (1)" />
-      <item itemvalue="Application.M1 (2)" />
-      <item itemvalue="Application.Test2" />
       <item itemvalue="Application.FirstPositionOfTarget" />
       <item itemvalue="Application.DeadLock" />
+      <item itemvalue="Application.Problem_380_RandomizedSet" />
+      <item itemvalue="Application.Problem_1288_RemoveCoveredIntervals" />
+      <item itemvalue="Application.Problem_56_Merge_1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem_56_Merge_1" />
+        <item itemvalue="Application.Problem_1288_RemoveCoveredIntervals" />
+        <item itemvalue="Application.Problem_380_RandomizedSet" />
         <item itemvalue="Application.DeadLock" />
         <item itemvalue="Application.FirstPositionOfTarget" />
-        <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.M1 (2)" />
-        <item itemvalue="Application.M1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +346,8 @@
       <workItem from="1601449821852" duration="96000" />
       <workItem from="1601454183480" duration="2264000" />
       <workItem from="1601601079416" duration="86000" />
-      <workItem from="1601723589049" duration="1757000" />
+      <workItem from="1601723589049" duration="3121000" />
+      <workItem from="1601860524757" duration="7536000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
@@ -405,22 +408,22 @@
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="177" y="181" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1598761193878" />
-    <state width="1649" height="209" key="GridCell.Tab.0.bottom" timestamp="1601729511600">
+    <state width="968" height="130" key="GridCell.Tab.0.bottom" timestamp="1601868407978">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1649" height="209" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1601729511600" />
-    <state width="1649" height="209" key="GridCell.Tab.0.center" timestamp="1601729511600">
+    <state width="968" height="130" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1601868407978" />
+    <state width="968" height="130" key="GridCell.Tab.0.center" timestamp="1601868407978">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1649" height="209" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1601729511600" />
-    <state width="1649" height="209" key="GridCell.Tab.0.left" timestamp="1601729511600">
+    <state width="968" height="130" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1601868407978" />
+    <state width="968" height="130" key="GridCell.Tab.0.left" timestamp="1601868407978">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1649" height="209" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1601729511600" />
-    <state width="1649" height="209" key="GridCell.Tab.0.right" timestamp="1601729511600">
+    <state width="968" height="130" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1601868407978" />
+    <state width="968" height="130" key="GridCell.Tab.0.right" timestamp="1601868407978">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1649" height="209" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1601729511600" />
+    <state width="968" height="130" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1601868407978" />
     <state width="1662" height="279" key="GridCell.Tab.1.bottom" timestamp="1601478533818">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
@@ -453,10 +456,10 @@
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="502" y="369" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1707.1067@0.0.1707.1067" timestamp="1593485244114" />
-    <state x="545" y="288" width="746" height="548" key="find.popup" timestamp="1599219581894">
+    <state x="545" y="288" width="746" height="548" key="find.popup" timestamp="1601797163825">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state x="545" y="288" width="746" height="548" key="find.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1599219581894" />
+    <state x="545" y="288" width="746" height="548" key="find.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1601797163825" />
     <state x="51" y="109" width="1224" height="563" key="new project wizard" timestamp="1601601161860">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
@@ -465,10 +468,10 @@
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="1110" y="520" key="save.file.as.template.dialog/0.0.1707.1067@0.0.1707.1067" timestamp="1597925800616" />
-    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup" timestamp="1600911067607">
+    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup" timestamp="1601866511191">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1600911067607" />
+    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1601866511191" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
