@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/set/Problem_380_RandomizedSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/sort/Problem_1288_RemoveCoveredIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/sort/Problem_56_Merge_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/sort/Problem_986_IntervalIntersection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/Problem_105_BuildTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/Problem_106_BuildTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/Problem_654_ConstructMaximumBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -347,7 +346,8 @@
       <workItem from="1601454183480" duration="2264000" />
       <workItem from="1601601079416" duration="86000" />
       <workItem from="1601723589049" duration="3121000" />
-      <workItem from="1601860524757" duration="7536000" />
+      <workItem from="1601860524757" duration="9877000" />
+      <workItem from="1601899893784" duration="1528000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
