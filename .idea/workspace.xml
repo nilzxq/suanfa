@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/Problem_105_BuildTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/Problem_106_BuildTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/Problem_654_ConstructMaximumBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_1411_NumOfWays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/list/Problem_25_ReverseKGroup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -347,7 +346,9 @@
       <workItem from="1601601079416" duration="86000" />
       <workItem from="1601723589049" duration="3121000" />
       <workItem from="1601860524757" duration="9877000" />
-      <workItem from="1601899893784" duration="1528000" />
+      <workItem from="1601899893784" duration="2236000" />
+      <workItem from="1601902593134" duration="1226000" />
+      <workItem from="1601973818854" duration="2382000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
@@ -468,10 +469,10 @@
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="1110" y="520" key="save.file.as.template.dialog/0.0.1707.1067@0.0.1707.1067" timestamp="1597925800616" />
-    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup" timestamp="1601866511191">
+    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup" timestamp="1601977893523">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1601866511191" />
+    <state x="689" y="387" width="672" height="678" key="search.everywhere.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1601977893523" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
