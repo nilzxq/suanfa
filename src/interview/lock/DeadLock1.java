@@ -1,22 +1,17 @@
 package interview.lock;
 
-import java.util.concurrent.ThreadLocalRandom;
-
 /**
- * 死锁
- *
  * @Author nilzxq
- * @Date 2020-10-03 20:47
+ * @Date 2020-10-10 14:02
  */
-public class DeadLock {
+public class DeadLock1 {
     private final Object left=new Object();
     private final Object right=new Object();
-
     public void leftToRight(){
         synchronized (left){
             try {
                 Thread.sleep(100);
-            }catch (InterruptedException e){
+            } catch (InterruptedException e) {
                 e.printStackTrace();
             }
             synchronized (right){
@@ -27,11 +22,13 @@ public class DeadLock {
 
     public void rightToLeft(){
         synchronized (right){
+
             try {
                 Thread.sleep(100);
-            }catch (InterruptedException e){
+            } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+
             synchronized (left){
                 System.out.println("得到left");
             }
@@ -39,23 +36,22 @@ public class DeadLock {
     }
 
     public static void main(String[] args) {
-        DeadLock deadLock=new DeadLock();
+        DeadLock1 deadLock=new DeadLock1();
+        //重写runnable
         new Thread(new Runnable() {
             @Override
             public void run() {
-                while(true){
-                    deadLock.leftToRight();
-                }
+                deadLock.leftToRight();
             }
-        }).start();
+        }
+        ).start();
 
         new Thread(new Runnable() {
             @Override
             public void run() {
-                while(true){
-                    deadLock.rightToLeft();
-                }
+                deadLock.rightToLeft();
             }
         }).start();
+
     }
 }
