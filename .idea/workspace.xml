@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/LRU/DoubleList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/LRU/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/list/Problem_23_MergeKLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -353,7 +352,7 @@
       <workItem from="1601987996883" duration="94000" />
       <workItem from="1602226897446" duration="3076000" />
       <workItem from="1602289981368" duration="11874000" />
-      <workItem from="1602405922182" duration="6275000" />
+      <workItem from="1602405922182" duration="8551000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
