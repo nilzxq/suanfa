@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/list/Problem_23_MergeKLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/huawei/Huanwei.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/huawei/MultAccunt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/yidong/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/yidong/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/pattern/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/string/AddString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/topK/Problem_347_TopKFrequent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interview/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/list/Problem_23_MergeKLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/list/Problem_23_MergeKLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/topK/Problem_347_TopKFrequent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/topK/Problem_347_TopKFrequent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +61,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../code/db_excel" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16773017" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -69,7 +79,7 @@
       <recent name="H:\左神\suanfa\out\production\suanfa\problems_2017_07_26" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LRUCache">
+  <component name="RunManager" selected="Application.Main1">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -77,13 +87,13 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="LIS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.string.LIS" />
+    <configuration name="Huanwei" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.huawei.Huanwei" />
       <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.string.*" />
+          <option name="PATTERN" value="interview.huawei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,13 +101,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.LRU.LRUCache" />
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.yidong.Main1" />
       <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.LRU.*" />
+          <option name="PATTERN" value="interview.yidong.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,13 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem_1288_RemoveCoveredIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.sort.Problem_1288_RemoveCoveredIntervals" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.yidong.Main2" />
       <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.sort.*" />
+          <option name="PATTERN" value="interview.yidong.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,13 +129,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem_380_RandomizedSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.set.Problem_380_RandomizedSet" />
+    <configuration name="MultAccunt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.huawei.MultAccunt" />
       <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.set.*" />
+          <option name="PATTERN" value="interview.huawei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,13 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem_56_Merge_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.sort.Problem_56_Merge_1" />
+    <configuration name="Problem_347_TopKFrequent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.topK.Problem_347_TopKFrequent" />
       <module name="suanfa" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.sort.*" />
+          <option name="PATTERN" value="leetcode.topK.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,19 +189,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Problem_380_RandomizedSet" />
-      <item itemvalue="Application.Problem_1288_RemoveCoveredIntervals" />
-      <item itemvalue="Application.Problem_56_Merge_1" />
-      <item itemvalue="Application.LIS" />
-      <item itemvalue="Application.LRUCache" />
+      <item itemvalue="Application.Problem_347_TopKFrequent" />
+      <item itemvalue="Application.MultAccunt" />
+      <item itemvalue="Application.Huanwei" />
+      <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.Main1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LRUCache" />
-        <item itemvalue="Application.LIS" />
-        <item itemvalue="Application.Problem_56_Merge_1" />
-        <item itemvalue="Application.Problem_1288_RemoveCoveredIntervals" />
-        <item itemvalue="Application.Problem_380_RandomizedSet" />
+        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Huanwei" />
+        <item itemvalue="Application.MultAccunt" />
+        <item itemvalue="Application.Problem_347_TopKFrequent" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +362,11 @@
       <workItem from="1601987996883" duration="94000" />
       <workItem from="1602226897446" duration="3076000" />
       <workItem from="1602289981368" duration="11874000" />
-      <workItem from="1602405922182" duration="8551000" />
+      <workItem from="1602405922182" duration="11760000" />
+      <workItem from="1602552058379" duration="5755000" />
+      <workItem from="1602664905154" duration="4308000" />
+      <workItem from="1602834589427" duration="3424000" />
+      <workItem from="1603020403527" duration="2180000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
@@ -409,42 +423,42 @@
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="132" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1707.1067@0.0.1707.1067" timestamp="1596007991550" />
-    <state x="177" y="181" key="FileChooserDialogImpl" timestamp="1601988088348">
+    <state x="177" y="181" key="FileChooserDialogImpl" timestamp="1602486179301">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state x="177" y="181" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1601988088348" />
-    <state width="1662" height="216" key="GridCell.Tab.0.bottom" timestamp="1602334570546">
+    <state x="177" y="181" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1602486179301" />
+    <state width="1662" height="199" key="GridCell.Tab.0.bottom" timestamp="1603023396917">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1662" height="216" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1602334570546" />
-    <state width="1662" height="216" key="GridCell.Tab.0.center" timestamp="1602334570546">
+    <state width="1662" height="199" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1603023396917" />
+    <state width="1662" height="199" key="GridCell.Tab.0.center" timestamp="1603023396917">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1662" height="216" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1602334570546" />
-    <state width="1662" height="216" key="GridCell.Tab.0.left" timestamp="1602334570545">
+    <state width="1662" height="199" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1603023396917" />
+    <state width="1662" height="199" key="GridCell.Tab.0.left" timestamp="1603023396917">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1662" height="216" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1602334570545" />
-    <state width="1662" height="216" key="GridCell.Tab.0.right" timestamp="1602334570546">
+    <state width="1662" height="199" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1603023396917" />
+    <state width="1662" height="199" key="GridCell.Tab.0.right" timestamp="1603023396917">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1662" height="216" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1602334570546" />
-    <state width="1662" height="216" key="GridCell.Tab.1.bottom" timestamp="1602334570547">
+    <state width="1662" height="199" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1603023396917" />
+    <state width="1649" height="205" key="GridCell.Tab.1.bottom" timestamp="1602600866747">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1662" height="216" key="GridCell.Tab.1.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1602334570547" />
-    <state width="1662" height="216" key="GridCell.Tab.1.center" timestamp="1602334570546">
+    <state width="1649" height="205" key="GridCell.Tab.1.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1602600866747" />
+    <state width="1649" height="205" key="GridCell.Tab.1.center" timestamp="1602600866746">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1662" height="216" key="GridCell.Tab.1.center/0.0.1707.1067@0.0.1707.1067" timestamp="1602334570546" />
-    <state width="1662" height="216" key="GridCell.Tab.1.left" timestamp="1602334570546">
+    <state width="1649" height="205" key="GridCell.Tab.1.center/0.0.1707.1067@0.0.1707.1067" timestamp="1602600866746" />
+    <state width="1649" height="205" key="GridCell.Tab.1.left" timestamp="1602600866746">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1662" height="216" key="GridCell.Tab.1.left/0.0.1707.1067@0.0.1707.1067" timestamp="1602334570546" />
-    <state width="1662" height="216" key="GridCell.Tab.1.right" timestamp="1602334570546">
+    <state width="1649" height="205" key="GridCell.Tab.1.left/0.0.1707.1067@0.0.1707.1067" timestamp="1602600866746" />
+    <state width="1649" height="205" key="GridCell.Tab.1.right" timestamp="1602600866747">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1662" height="216" key="GridCell.Tab.1.right/0.0.1707.1067@0.0.1707.1067" timestamp="1602334570546" />
+    <state width="1649" height="205" key="GridCell.Tab.1.right/0.0.1707.1067@0.0.1707.1067" timestamp="1602600866747" />
     <state x="257" y="201" width="996" height="707" key="SettingsEditor" timestamp="1598761510590">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
@@ -1746,6 +1760,56 @@
           <url>file://$PROJECT_DIR$/src/leetcode/string/LIS.java</url>
           <line>56</line>
           <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/topK/Problem_347_TopKFrequent.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="290" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/topK/Problem_347_TopKFrequent.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="291" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/topK/Problem_347_TopKFrequent.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/topK/Problem_347_TopKFrequent.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/topK/Problem_347_TopKFrequent.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="294" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/topK/Problem_347_TopKFrequent.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/topK/Problem_347_TopKFrequent.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/topK/Problem_347_TopKFrequent.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/topK/Problem_347_TopKFrequent.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/topK/Problem_347_TopKFrequent.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="299" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/dp/Problem_14_CuttingRope.java</url>

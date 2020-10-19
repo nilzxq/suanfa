@@ -41,5 +41,5 @@ public class Problem_23_MergeKLists {
         }
         return dummy.next;
     }
-    
+
 }

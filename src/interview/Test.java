@@ -9,15 +9,19 @@ import java.lang.reflect.InvocationTargetException;
  */
 public class Test {
     public static void main(String[] args) throws IllegalAccessException, InvocationTargetException, InstantiationException, NoSuchMethodException {
-        //获得构造器
-        Constructor con = SingletonEnum.class.getDeclaredConstructor();
-        //设置为可访问
-        con.setAccessible(true);
-        //构造两个不同的对象
-        SingletonEnum singleton1 = (SingletonEnum)con.newInstance();
-        SingletonEnum singleton2 = (SingletonEnum)con.newInstance();
-        //验证是否是不同对象
-        System.out.println(singleton1.equals(singleton2));
+//        //获得构造器
+//        Constructor con = SingletonEnum.class.getDeclaredConstructor();
+//        //设置为可访问
+//        con.setAccessible(true);
+//        //构造两个不同的对象
+//        SingletonEnum singleton1 = (SingletonEnum)con.newInstance();
+//        SingletonEnum singleton2 = (SingletonEnum)con.newInstance();
+//        //验证是否是不同对象
+//        System.out.println(singleton1.equals(singleton2));
+
+        Integer a=new Integer(124);
+        Integer b=new Integer(124);
+        System.out.println(a==b);
     }
 }
 //输出
