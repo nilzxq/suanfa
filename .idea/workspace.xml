@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2">
-      <change afterPath="$PROJECT_DIR$/src/interview/bianlifeng/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/bianlifeng/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/bianlifeng/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/pinankeji/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/list/Problem_0203_DeleteNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -361,6 +358,9 @@
       <workItem from="1602834589427" duration="3424000" />
       <workItem from="1603020403527" duration="2180000" />
       <workItem from="1603073941406" duration="6872000" />
+      <workItem from="1603151736487" duration="934000" />
+      <workItem from="1603512668624" duration="932000" />
+      <workItem from="1603637336639" duration="154000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
