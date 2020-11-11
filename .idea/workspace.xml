@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/Problem_128_LongestConsecutive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/string/Problem_22_GenerateParenthesis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,27 +69,13 @@
       <recent name="H:\左神\suanfa\out\production\suanfa\problems_2017_07_26" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Problem_200_NumIsIands">
+  <component name="RunManager" selected="Application.Problem_22_GenerateParenthesis">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="Huanwei" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.huawei.Huanwei" />
-      <module name="suanfa" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interview.huawei.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Main1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interview.pinankeji.Main1" />
@@ -147,6 +133,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem_22_GenerateParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.string.Problem_22_GenerateParenthesis" />
+      <module name="suanfa" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -179,19 +179,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Huanwei" />
       <item itemvalue="Application.Main2" />
       <item itemvalue="Application.Main1" />
       <item itemvalue="Application.Main1 (1)" />
       <item itemvalue="Application.Problem_200_NumIsIands" />
+      <item itemvalue="Application.Problem_22_GenerateParenthesis" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem_22_GenerateParenthesis" />
         <item itemvalue="Application.Problem_200_NumIsIands" />
         <item itemvalue="Application.Main1 (1)" />
         <item itemvalue="Application.Main1" />
         <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Huanwei" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +364,8 @@
       <workItem from="1604480365710" duration="2536000" />
       <workItem from="1604623085102" duration="2412000" />
       <workItem from="1604740485133" duration="64000" />
-      <workItem from="1604826775785" duration="1549000" />
+      <workItem from="1604826775785" duration="1904000" />
+      <workItem from="1605012359548" duration="2088000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
