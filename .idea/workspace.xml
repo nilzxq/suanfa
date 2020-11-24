@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5486ed44-6e98-4cd4-84dc-7c6600db45fb" name="Default" comment="update Problem_68_Tree_LowestCommonAncestor2">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/list/Problem_114_Flatten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/sort/Problem_969_PancakeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/PreorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/PreorderTraversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -367,7 +368,11 @@
       <workItem from="1604826775785" duration="1904000" />
       <workItem from="1605012359548" duration="4225000" />
       <workItem from="1605337351977" duration="427000" />
-      <workItem from="1605410753221" duration="2429000" />
+      <workItem from="1605410753221" duration="3028000" />
+      <workItem from="1605785761060" duration="1360000" />
+      <workItem from="1605922876413" duration="636000" />
+      <workItem from="1606207901230" duration="10000" />
+      <workItem from="1606207930426" duration="2059000" />
     </task>
     <task id="LOCAL-00001" summary="nowcoder">
       <created>1513518024633</created>
